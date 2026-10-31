@@ -1,0 +1,1677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kisan Crown™ | Heavy-Duty Agricultural Machinery Manufacturer & B2B Wholesale Supplier</title>
+  <meta name="description" content="GTB International Pvt. Ltd. (Kisan Crown™, Est. 1977). India's premier manufacturer & B2B distributor of Rice Mills, Power Weeders, Battery Sprayers, Commercial Pulverizers, and Cold-Press Oil Expellers. Factory-direct wholesale pricing for Dealerships & Commercial Processors.">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- FontAwesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Custom Styling -->
+  <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-emerald-600 selection:text-white">
+
+  <!-- TOP B2B ANNOUNCEMENT BAR -->
+  <div class="bg-slate-950 text-white text-xs py-2.5 px-4 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-center sm:text-left">
+      <div class="flex items-center gap-2 flex-wrap justify-center sm:justify-start">
+        <span class="bg-amber-500 text-slate-950 font-black px-2 py-0.5 rounded text-[10px] tracking-wider uppercase">
+          🏭 B2B WHOLESALE & FACTORY DIRECT
+        </span>
+        <span class="text-slate-300 font-medium" data-en="Authorized District Dealerships Open Pan-India | 100% GST Invoicing & Input Tax Credit" data-hi="पूरे भारत में जिला डीलरशिप उपलब्ध | 100% GST बिलिंग और इनपुट टैक्स क्रेडिट">
+          Authorized District Dealerships Open Pan-India | 100% GST Invoicing & Input Tax Credit
+        </span>
+      </div>
+      <div class="flex items-center gap-4 text-xs shrink-0">
+        <a href="tel:+919827110000" class="hover:text-amber-400 transition flex items-center gap-1.5 font-bold text-slate-200">
+          <i class="fa-solid fa-phone-volume text-amber-400"></i> B2B Desk: +91 98271 10000
+        </a>
+        <button id="lang-toggle-btn" onclick="translations.toggle()" class="bg-white/10 hover:bg-white/20 border border-white/20 px-2.5 py-0.5 rounded text-xs transition font-bold">
+          <i class="fa-solid fa-language mr-1 text-amber-400"></i> हिन्दी
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN NAVIGATION BAR (HEAVY B2B FOCUS) -->
+  <nav class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between min-h-[76px] py-2 gap-4">
+        
+        <!-- Brand Logo & GTB International Identity -->
+        <a class="flex items-center gap-3 shrink-0 group" href="/">
+          <img src="public/images/kisan-crown-logo.jpg" alt="Kisan Crown Logo" class="h-12 w-auto rounded-full shadow-sm group-hover:scale-105 transition">
+          <div>
+            <div class="flex items-center gap-1.5">
+              <span class="font-heading font-black text-xl sm:text-2xl text-emerald-950 tracking-tight">KISAN CROWN</span>
+              <span class="text-[10px] bg-amber-100 text-amber-800 font-bold px-1.5 py-0.5 rounded border border-amber-300">TM</span>
+            </div>
+            <p class="text-[10px] sm:text-[11px] text-slate-500 font-medium tracking-wide">
+              GTB International Pvt. Ltd. <span class="text-emerald-700 font-bold">(Est. 1977 • 50+ Yrs)</span>
+            </p>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <div class="hidden xl:flex items-center space-x-6 text-sm font-semibold text-slate-700">
+          <a href="#product-categories" class="hover:text-emerald-700 transition" data-en="Product Categories" data-hi="उत्पाद श्रेणियां">Product Categories</a>
+          <a href="#machinery-catalog" class="hover:text-emerald-700 transition" data-en="Wholesale Catalog" data-hi="थोक कैटलॉग">Wholesale Catalog</a>
+          <a href="#dealership-advantages" class="hover:text-emerald-700 transition" data-en="Dealer Benefits" data-hi="डीलर लाभ">Dealer Benefits</a>
+          <a href="#dealer-calculator" class="hover:text-emerald-700 transition" data-en="Margin Calculator" data-hi="मार्जिन कैलकुलेटर">Margin Calculator</a>
+          <a href="#comparison-matrix" class="hover:text-emerald-700 transition" data-en="Specs Matrix" data-hi="तुलना तालिका">Specs Matrix</a>
+          <a href="#pan-india-network" class="hover:text-emerald-700 transition" data-en="Factory Hubs" data-hi="फैक्ट्री हब">Factory Hubs</a>
+        </div>
+
+        <!-- Header Action Buttons -->
+        <div class="flex items-center gap-2 sm:gap-2.5 shrink-0">
+          <a href="#dealership-form" class="bg-amber-500 hover:bg-amber-400 text-slate-950 font-black px-3.5 sm:px-4 py-2 sm:py-2.5 rounded-xl shadow-md transition flex items-center gap-1.5 text-xs sm:text-sm">
+            <i class="fa-solid fa-handshake"></i>
+            <span class="hidden sm:inline" data-en="Become a Dealer" data-hi="डीलर बनें">Become a Dealer</span>
+            <span class="sm:hidden">Dealer</span>
+          </a>
+          <button onclick="openWhatsAppInquiry('Wholesale Dealership Catalog & Price List', 'Hello Kisan Crown / GTB International team, I am an agro equipment dealer / business owner. Please send me your complete B2B wholesale price list and dealership catalog.')" class="bg-emerald-700 hover:bg-emerald-800 text-white font-bold px-3 sm:px-4 py-2 sm:py-2.5 rounded-xl shadow-md transition flex items-center gap-1.5 sm:gap-2 text-xs sm:text-sm">
+            <i class="fa-brands fa-whatsapp text-lg text-emerald-200"></i>
+            <span class="hidden md:inline" data-en="Wholesale RFP" data-hi="थोक कोटेशन">Wholesale RFP</span>
+            <span class="md:hidden">RFP</span>
+          </button>
+          <button onclick="toggleMobileMenu()" class="xl:hidden p-2 text-slate-700 hover:text-emerald-700 rounded-lg border border-slate-200">
+            <i class="fa-solid fa-bars text-lg"></i>
+          </button>
+        </div>
+
+      </div>
+
+      <!-- Mobile Dropdown Menu -->
+      <div id="mobile-menu" class="hidden xl:hidden py-4 border-t border-slate-200 space-y-2 text-sm font-semibold text-slate-700">
+        <button onclick="translations.toggle(); toggleMobileMenu();" class="lang-toggle-btn w-full text-left py-2.5 px-3 bg-emerald-50 text-emerald-800 rounded-xl font-bold flex items-center gap-2 mb-2">
+          <i class="fa-solid fa-language text-base text-amber-600"></i>
+          <span>भाषा बदलें: हिन्दी / English</span>
+        </button>
+        <a href="#product-categories" onclick="toggleMobileMenu()" class="block py-2 hover:text-emerald-700">Product Categories (6 Divisions)</a>
+        <a href="#machinery-catalog" onclick="toggleMobileMenu()" class="block py-2 hover:text-emerald-700">Wholesale Machinery Catalog</a>
+        <a href="#dealership-advantages" onclick="toggleMobileMenu()" class="block py-2 hover:text-emerald-700">B2B Dealership Advantages</a>
+        <a href="#dealer-calculator" onclick="toggleMobileMenu()" class="block py-2 hover:text-emerald-700">Dealer Profit & Margin Calculator</a>
+        <a href="#comparison-matrix" onclick="toggleMobileMenu()" class="block py-2 hover:text-emerald-700">Machinery Specs Matrix</a>
+        <a href="#dealership-form" onclick="toggleMobileMenu()" class="block py-2 text-amber-700 font-bold">Apply for Dealership</a>
+        <a href="#pan-india-network" onclick="toggleMobileMenu()" class="block py-2 hover:text-emerald-700">Factory Hubs & Logistics</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION (HEAVY B2B WHOLESALE & MANUFACTURER FOCUS) -->
+  <section class="relative bg-gradient-to-b from-slate-950 via-slate-900 to-emerald-950 text-white py-14 lg:py-20 overflow-hidden">
+    <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#10b981_1px,transparent_1px)] [background-size:20px_20px]"></div>
+    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        
+        <!-- Left: High Impact B2B Value Proposition -->
+        <div class="lg:col-span-7 space-y-5">
+          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-400/30 text-emerald-300 text-xs font-semibold">
+            <span class="w-2.5 h-2.5 rounded-full bg-amber-400 animate-pulse"></span>
+            <span data-en="GTB International Pvt. Ltd. • Over 50 Years of Engineering Excellence" data-hi="GTB इंटरनेशनल प्रा. लि. • 50+ वर्षों की इंजीनियरिंग विश्वसनीयता">
+              GTB International Pvt. Ltd. • Over 50 Years of Engineering Excellence
+            </span>
+          </div>
+
+          <h1 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-tight" data-en="Heavy-Duty Agricultural Machinery at <span class='text-gradient-gold'>Factory Direct Wholesale Rates</span>" data-hi="उच्च गुणवत्ता वाली कृषि मशीनें <span class='text-gradient-gold'>सीधे फैक्ट्री थोक दरों पर</span>">
+            Heavy-Duty Agricultural Machinery at <span class="text-gradient-gold">Factory Direct Wholesale Rates</span>
+          </h1>
+
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed max-w-2xl" data-en="India's leading B2B manufacturing partner for Agro-Machinery Dealers, Hardware Retailers, Custom Hiring Centers (CHCs) and Commercial Millers. Supplying 500+ active dealers across 28 states with high-recovery Rice Mills, Power Weeders, Battery Sprayers, Commercial Pulverizers, and Cold-Press Oil Expellers." data-hi="कृषि उपकरण डीलरों, हार्डवेयर स्टोर्स, कस्टम हायरिंग सेंटर्स और व्यावसायिक मिलर्स के लिए भारत का विश्वसनीय निर्माता। 28 राज्यों में 500+ डीलरों को राइस मिल, पॉवर वीडर, बैटरी स्प्रेयर, पल्वराइज़र और तेल मिलों की सीधी फैक्ट्री सप्लाई।">
+            India's leading B2B manufacturing partner for Agro-Machinery Dealers, Hardware Retailers, Custom Hiring Centers (CHCs) and Commercial Millers. Supplying 500+ active dealers across 28 states with high-recovery Rice Mills, Power Weeders, Battery Sprayers, Commercial Pulverizers, and Cold-Press Oil Expellers.
+          </p>
+
+          <!-- 4 Core B2B Pillars -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
+            <div class="bg-white/5 border border-white/10 rounded-xl p-3 text-center hover:border-amber-400/50 transition">
+              <i class="fa-solid fa-chart-line text-amber-400 text-lg mb-1"></i>
+              <div class="font-bold text-xs">25%–35% Margins</div>
+              <div class="text-[10px] text-slate-400">High Dealer Profit</div>
+            </div>
+            <div class="bg-white/5 border border-white/10 rounded-xl p-3 text-center hover:border-emerald-400/50 transition">
+              <i class="fa-solid fa-boxes-packing text-emerald-400 text-lg mb-1"></i>
+              <div class="font-bold text-xs">Factory Dispatch</div>
+              <div class="text-[10px] text-slate-400">24–48 Hr Turnaround</div>
+            </div>
+            <div class="bg-white/5 border border-white/10 rounded-xl p-3 text-center hover:border-amber-400/50 transition">
+              <i class="fa-solid fa-file-invoice-dollar text-amber-400 text-lg mb-1"></i>
+              <div class="font-bold text-xs">100% GST Invoice</div>
+              <div class="text-[10px] text-slate-400">Full 18% ITC Credit</div>
+            </div>
+            <div class="bg-white/5 border border-white/10 rounded-xl p-3 text-center hover:border-emerald-400/50 transition">
+              <i class="fa-solid fa-gears text-emerald-400 text-lg mb-1"></i>
+              <div class="font-bold text-xs">Ready OEM Spares</div>
+              <div class="text-[10px] text-slate-400">1-Year Warranty</div>
+            </div>
+          </div>
+
+          <!-- Quick Navigation CTAs -->
+          <div class="flex flex-wrap gap-3 pt-3">
+            <a href="#product-categories" class="bg-gradient-to-r from-emerald-500 to-green-600 hover:from-emerald-600 hover:to-green-700 text-white font-extrabold px-6 py-3 rounded-xl shadow-lg transition flex items-center gap-2 text-sm">
+              <span data-en="Explore 6 Machinery Categories" data-hi="सभी 6 उत्पाद श्रेणियां देखें">Explore 6 Machinery Categories</span>
+              <i class="fa-solid fa-arrow-down text-emerald-200"></i>
+            </a>
+            <a href="#dealership-form" class="bg-amber-500 hover:bg-amber-400 text-slate-950 font-black px-6 py-3 rounded-xl shadow-lg transition text-sm flex items-center gap-2">
+              <i class="fa-solid fa-handshake"></i>
+              <span data-en="Apply for District Dealership" data-hi="जिला डीलरशिप हेतु आवेदन">Apply for District Dealership</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: AD-READY B2B WHOLESALE RFP LEAD CAPTURE -->
+        <div class="lg:col-span-5">
+          <div class="bg-white text-slate-900 rounded-3xl p-6 sm:p-7 shadow-2xl border border-slate-100">
+            <div class="flex items-center justify-between pb-3 border-b border-slate-100 mb-4">
+              <div>
+                <span class="text-[10px] font-black uppercase tracking-wider text-emerald-800 bg-emerald-100 px-2 py-0.5 rounded">
+                  B2B DEALERSHIP & WHOLESALE DESK
+                </span>
+                <h3 class="font-heading font-black text-xl text-slate-900 mt-1">Request Wholesale Price Catalog</h3>
+              </div>
+              <div class="w-10 h-10 rounded-2xl bg-slate-900 text-amber-400 flex items-center justify-center font-bold">
+                <i class="fa-solid fa-warehouse"></i>
+              </div>
+            </div>
+
+            <form onsubmit="handleHeroLeadSubmit(event)" class="space-y-3.5">
+              
+              <!-- Buyer Segment: B2B Focused -->
+              <div>
+                <label class="block text-xs font-bold text-slate-700 mb-1">Your Business Profile: *</label>
+                <div class="grid grid-cols-2 gap-2">
+                  <label class="flex items-center gap-2 p-2 rounded-xl border border-slate-300 text-xs font-semibold cursor-pointer hover:bg-slate-50">
+                    <input type="radio" name="buyer-type" value="Agro Machinery Dealer / Hardware Store" checked class="text-emerald-600">
+                    <span>🏢 Agro Dealer / Shop</span>
+                  </label>
+                  <label class="flex items-center gap-2 p-2 rounded-xl border border-slate-300 text-xs font-semibold cursor-pointer hover:bg-slate-50">
+                    <input type="radio" name="buyer-type" value="Commercial Processor / Custom Hiring Center (CHC)" class="text-emerald-600">
+                    <span>⚙️ Commercial / CHC</span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Business / Shop Name -->
+              <div>
+                <label class="block text-xs font-bold text-slate-700 mb-1">Dealership / Firm Name *</label>
+                <input id="hero-business-name" type="text" required placeholder="e.g. Patel Krishi Kendra / Agro Traders" class="w-full px-3.5 py-2 rounded-xl border border-slate-300 text-xs font-medium focus:ring-2 focus:ring-emerald-500 bg-slate-50">
+              </div>
+
+              <!-- Product Range Selection -->
+              <div>
+                <label class="block text-xs font-bold text-slate-700 mb-1">Primary Machinery Category Needed: *</label>
+                <select id="hero-selected-machine" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-xs font-semibold focus:ring-2 focus:ring-emerald-500 bg-slate-50">
+                  <option value="Complete Machinery Range (Full Dealership Portfolio)">Complete Machinery Portfolio (All Categories)</option>
+                  <option value="Commercial Rice Mill Plants (6N-40, 6N-70, 6N-110)">Rice Milling & Destoning Plants (6N Series)</option>
+                  <option value="7 HP Heavy Duty Power Weeders (7000P / 8000P)">Power Weeders & Rotary Tillers (7 HP Series)</option>
+                  <option value="Double Motor Battery Sprayers (Alishaan & Kisan Crown)">Agricultural Battery & Power Sprayers</option>
+                  <option value="3HP Commercial Pulverizers & Heavy Grinders">Commercial Pulverizers & Heavy Duty Grinders</option>
+                  <option value="Cold Press Mini & Commercial Oil Mills (400W to 20kW)">Cold Press Mini & Industrial Oil Expellers</option>
+                  <option value="Agro Processing (Winnowers, Pellet Machines, Threshers)">Food & Agro Processing (Winnowers, Pellets, Threshers)</option>
+                </select>
+              </div>
+
+              <!-- Contact & Phone -->
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div>
+                  <label class="block text-xs font-bold text-slate-700 mb-1">Proprietor / Contact Name *</label>
+                  <input id="hero-name" type="text" required placeholder="Your Full Name" class="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-emerald-500">
+                </div>
+                <div>
+                  <label class="block text-xs font-bold text-slate-700 mb-1">WhatsApp / Phone *</label>
+                  <input id="hero-phone" type="tel" required placeholder="10-digit mobile" class="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-emerald-500">
+                </div>
+              </div>
+
+              <!-- Location -->
+              <div>
+                <label class="block text-xs font-bold text-slate-700 mb-1">District & State *</label>
+                <input id="hero-location" type="text" required placeholder="e.g. Raipur, Chhattisgarh / Nagpur, Maharashtra" class="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-emerald-500">
+              </div>
+
+              <button type="submit" class="w-full bg-emerald-700 hover:bg-emerald-800 text-white font-extrabold py-3.5 rounded-xl transition text-sm flex items-center justify-center gap-2 shadow-lg hover:shadow-emerald-700/30">
+                <i class="fa-brands fa-whatsapp text-lg text-emerald-200"></i>
+                <span data-en="Get Wholesale Price List on WhatsApp" data-hi="व्हाट्सएप पर थोक मूल्य सूची प्राप्त करें">Get Wholesale Price List on WhatsApp</span>
+              </button>
+
+              <div class="flex items-center justify-center gap-4 text-[11px] text-slate-500 pt-1">
+                <span><i class="fa-solid fa-lock text-emerald-600"></i> Confidential B2B Rates</span>
+                <span>•</span>
+                <span><i class="fa-solid fa-bolt text-amber-500"></i> Instant Response via B2B Desk</span>
+              </div>
+
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CORPORATE CREDENTIALS & INSTITUTIONAL TRUST BAR -->
+  <section class="bg-slate-900 text-slate-300 py-6 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 items-center text-center md:text-left divide-y md:divide-y-0 md:divide-x divide-slate-800">
+        
+        <div class="px-2 pt-2 md:pt-0">
+          <div class="text-[11px] text-slate-400 font-bold uppercase tracking-wider">Corporate Identity</div>
+          <div class="text-sm font-black text-white mt-0.5">GTB International Pvt. Ltd.</div>
+          <div class="text-[10px] text-emerald-400 font-medium">CIN: U28252CT2024PTC017013</div>
+        </div>
+
+        <div class="px-2 pt-2 md:pt-0">
+          <div class="text-[11px] text-slate-400 font-bold uppercase tracking-wider">GST Compliance</div>
+          <div class="text-sm font-black text-white mt-0.5">22AALCG5759N1Z0</div>
+          <div class="text-[10px] text-amber-400 font-medium">100% Tax Invoicing & ITC Eligible</div>
+        </div>
+
+        <div class="px-2 pt-2 md:pt-0">
+          <div class="text-[11px] text-slate-400 font-bold uppercase tracking-wider">Manufacturing Heritage</div>
+          <div class="text-sm font-black text-white mt-0.5">Established 1977 (50+ Yrs)</div>
+          <div class="text-[10px] text-emerald-400 font-medium">Punjab Machinery Mart (PMM)</div>
+        </div>
+
+        <div class="px-2 pt-2 md:pt-0">
+          <div class="text-[11px] text-slate-400 font-bold uppercase tracking-wider">Annual B2B Turnover</div>
+          <div class="text-sm font-black text-white mt-0.5">₹5 Cr – ₹25 Cr Scale</div>
+          <div class="text-[10px] text-amber-400 font-medium">IndiaMART TrustSeal Verified</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- SECTION 1: MAIN PRODUCT CATEGORY RANGE (THE 6 CORE DIVISIONS)             -->
+  <!-- ========================================================================= -->
+  <section id="product-categories" class="py-16 bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-xs uppercase font-extrabold tracking-widest text-emerald-800 bg-emerald-100 px-3 py-1 rounded-full">
+          COMPLETE MACHINERY PORTFOLIO
+        </span>
+        <h2 class="font-heading font-black text-2xl sm:text-4xl text-slate-900 mt-3" data-en="Our Comprehensive Agro-Machinery Category Range" data-hi="हमारी संपूर्ण कृषि मशीनरी उत्पाद श्रेणियां">
+          Our Comprehensive Agro-Machinery Category Range
+        </h2>
+        <p class="text-slate-600 mt-2 text-sm sm:text-base leading-relaxed" data-en="Beyond rice mills, Kisan Crown manufactures and supplies an extensive line of heavy commercial machinery engineered for agricultural retailers, hardware dealers, and custom agro-processing centers." data-hi="राइस मिल के अतिरिक्त, किसान क्राउन कृषि उपकरण विक्रेताओं, डीलरों और व्यावसायिक प्रसंस्करण केंद्रों के लिए उच्च क्षमता वाली विभिन्न श्रेणियों का निर्माण व वितरण करता है।">
+          Beyond rice mills, Kisan Crown manufactures and supplies an extensive line of heavy commercial machinery engineered for agricultural retailers, hardware dealers, and custom agro-processing centers.
+        </p>
+      </div>
+
+      <!-- 6 Major Category Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Category 1: Rice Mills & Destoners -->
+        <div class="bg-slate-50 rounded-2xl border border-slate-200 overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col group">
+          <div class="relative bg-white p-6 flex items-center justify-center border-b border-slate-200 h-64 overflow-hidden">
+            <span class="absolute top-3 left-3 bg-emerald-700 text-white text-[10px] font-black uppercase px-2.5 py-1 rounded-lg">
+              DIVISION 01
+            </span>
+            <span class="absolute top-3 right-3 bg-amber-100 text-amber-900 text-[10px] font-bold px-2 py-0.5 rounded border border-amber-300">
+              Single & 3-Phase
+            </span>
+            <img src="public/images/product-2.png" alt="Rice Mills and Destoner Systems" class="h-48 w-auto object-contain group-hover:scale-105 transition-transform duration-300">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-heading font-black text-xl text-slate-900 mb-2">
+                Rice Mills & Destoning Systems
+              </h3>
+              <p class="text-xs text-slate-600 leading-relaxed mb-4">
+                High-recovery single & dual hopper mills with built-in stone separators, vibro-sieves, and polishing chambers. Models from 120 kg/hr up to 1,200 kg/hr.
+              </p>
+              <div class="space-y-1.5 text-xs text-slate-700 mb-4 bg-white p-3 rounded-xl border border-slate-200">
+                <div class="flex justify-between"><strong>Key Models:</strong> <span>6N-40, 6N-70, 6N-70 Ultra Pro, 6N-110</span></div>
+                <div class="flex justify-between"><strong>Power Range:</strong> <span>3 HP to 10 HP (220V / 440V)</span></div>
+                <div class="flex justify-between"><strong>Wholesale MOQ:</strong> <span class="text-emerald-700 font-bold">1 Unit Sample / 5 Units Crate</span></div>
+              </div>
+            </div>
+            <div class="flex items-center gap-2 pt-2">
+              <button onclick="openWhatsAppInquiry('Rice Mill Division Catalog', 'Hello Kisan Crown, please send me the wholesale dealer price list for your Rice Mill & Destoner range.')" class="flex-1 bg-emerald-700 hover:bg-emerald-800 text-white font-bold py-2.5 rounded-xl text-xs transition flex items-center justify-center gap-1.5">
+                <i class="fa-brands fa-whatsapp"></i> Dealer Pricing
+              </button>
+              <a href="#machinery-catalog" onclick="filterCategory('rice-mills')" class="px-3 py-2.5 bg-slate-200 hover:bg-slate-300 text-slate-800 rounded-xl text-xs font-bold transition">
+                View 4 Models
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 2: Power Weeders & Tillers -->
+        <div class="bg-slate-50 rounded-2xl border border-slate-200 overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col group">
+          <div class="relative bg-white p-6 flex items-center justify-center border-b border-slate-200 h-64 overflow-hidden">
+            <span class="absolute top-3 left-3 bg-emerald-700 text-white text-[10px] font-black uppercase px-2.5 py-1 rounded-lg">
+              DIVISION 02
+            </span>
+            <span class="absolute top-3 right-3 bg-amber-100 text-amber-900 text-[10px] font-bold px-2 py-0.5 rounded border border-amber-300">
+              7 HP Heavy Duty
+            </span>
+            <img src="public/images/power-weeder-7000p.jpg" alt="Power Weeders and Tillers" class="h-48 w-auto object-contain group-hover:scale-105 transition-transform duration-300">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-heading font-black text-xl text-slate-900 mb-2">
+                Power Weeders & Rotary Tillers
+              </h3>
+              <p class="text-xs text-slate-600 leading-relaxed mb-4">
+                Heavy-duty inter-cultivators for de-weeding, soil tilling, ridge making, and ditching. Rugged gear transmission, ATV tyres, and high-tensile rotary tines.
+              </p>
+              <div class="space-y-1.5 text-xs text-slate-700 mb-4 bg-white p-3 rounded-xl border border-slate-200">
+                <div class="flex justify-between"><strong>Key Models:</strong> <span>7000P, 7500P, 8000P, 8500P ATV</span></div>
+                <div class="flex justify-between"><strong>Engine:</strong> <span>7.0 HP 4-Stroke Petrol / Diesel</span></div>
+                <div class="flex justify-between"><strong>Wholesale MOQ:</strong> <span class="text-emerald-700 font-bold">2 Units Sample / 10 Units Lot</span></div>
+              </div>
+            </div>
+            <div class="flex items-center gap-2 pt-2">
+              <button onclick="openWhatsAppInquiry('Power Weeder Division Catalog', 'Hello Kisan Crown, please send me the wholesale dealer price list for your 7HP Power Weeder models.')" class="flex-1 bg-emerald-700 hover:bg-emerald-800 text-white font-bold py-2.5 rounded-xl text-xs transition flex items-center justify-center gap-1.5">
+                <i class="fa-brands fa-whatsapp"></i> Dealer Pricing
+              </button>
+              <a href="#machinery-catalog" onclick="filterCategory('power-weeders')" class="px-3 py-2.5 bg-slate-200 hover:bg-slate-300 text-slate-800 rounded-xl text-xs font-bold transition">
+                View Models
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 3: Agricultural Battery Sprayers -->
+        <div class="bg-slate-50 rounded-2xl border border-slate-200 overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col group">
+          <div class="relative bg-white p-6 flex items-center justify-center border-b border-slate-200 h-64 overflow-hidden">
+            <span class="absolute top-3 left-3 bg-emerald-700 text-white text-[10px] font-black uppercase px-2.5 py-1 rounded-lg">
+              DIVISION 03
+            </span>
+            <span class="absolute top-3 right-3 bg-amber-100 text-amber-900 text-[10px] font-bold px-2 py-0.5 rounded border border-amber-300">
+              Double Motor 12V
+            </span>
+            <img src="public/images/sprayer-double-motor.jpg" alt="Agricultural Battery Sprayers" class="h-48 w-auto object-contain group-hover:scale-105 transition-transform duration-300">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-heading font-black text-xl text-slate-900 mb-2">
+                Battery & Commercial Sprayers
+              </h3>
+              <p class="text-xs text-slate-600 leading-relaxed mb-4">
+                Dual motor 12V 12Ah/14Ah agricultural knapsack sprayers with brass telescopic lances, auto-cutoff pressure pumps, and heavy chemical-resistant tanks.
+              </p>
+              <div class="space-y-1.5 text-xs text-slate-700 mb-4 bg-white p-3 rounded-xl border border-slate-200">
+                <div class="flex justify-between"><strong>Key Models:</strong> <span>Kisan Crown Double Motor, Alishaan Star, King DHP</span></div>
+                <div class="flex justify-between"><strong>Discharge:</strong> <span>Up to 8.0 L/min High Pressure</span></div>
+                <div class="flex justify-between"><strong>Wholesale MOQ:</strong> <span class="text-emerald-700 font-bold">10 Units Carton Pack</span></div>
+              </div>
+            </div>
+            <div class="flex items-center gap-2 pt-2">
+              <button onclick="openWhatsAppInquiry('Battery Sprayers Division Catalog', 'Hello Kisan Crown, please send me the wholesale dealer price list for Battery Sprayers (Double Motor & Alishaan).')" class="flex-1 bg-emerald-700 hover:bg-emerald-800 text-white font-bold py-2.5 rounded-xl text-xs transition flex items-center justify-center gap-1.5">
+                <i class="fa-brands fa-whatsapp"></i> Dealer Pricing
+              </button>
+              <a href="#machinery-catalog" onclick="filterCategory('sprayers')" class="px-3 py-2.5 bg-slate-200 hover:bg-slate-300 text-slate-800 rounded-xl text-xs font-bold transition">
+                View Models
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 4: Commercial Pulverizers & Grinders -->
+        <div class="bg-slate-50 rounded-2xl border border-slate-200 overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col group">
+          <div class="relative bg-white p-6 flex items-center justify-center border-b border-slate-200 h-64 overflow-hidden">
+            <span class="absolute top-3 left-3 bg-emerald-700 text-white text-[10px] font-black uppercase px-2.5 py-1 rounded-lg">
+              DIVISION 04
+            </span>
+            <span class="absolute top-3 right-3 bg-amber-100 text-amber-900 text-[10px] font-bold px-2 py-0.5 rounded border border-amber-300">
+              Commercial Atta & Spices
+            </span>
+            <img src="public/images/pulverizer-3hp.jpg" alt="Commercial Pulverizers & Grinders" class="h-48 w-auto object-contain group-hover:scale-105 transition-transform duration-300">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-heading font-black text-xl text-slate-900 mb-2">
+                Commercial Pulverizers & Grinders
+              </h3>
+              <p class="text-xs text-slate-600 leading-relaxed mb-4">
+                Heavy-duty cast iron and stainless steel pulverizers for fine grinding of wheat, maize, pulses, turmeric, dry chili, and spices. Complete with cyclone chambers.
+              </p>
+              <div class="space-y-1.5 text-xs text-slate-700 mb-4 bg-white p-3 rounded-xl border border-slate-200">
+                <div class="flex justify-between"><strong>Key Models:</strong> <span>3 HP Pulverizer, 9FC20, Basant 8 Inch</span></div>
+                <div class="flex justify-between"><strong>Capacity:</strong> <span>35 kg/hr to 250 kg/hr Continuous</span></div>
+                <div class="flex justify-between"><strong>Wholesale MOQ:</strong> <span class="text-emerald-700 font-bold">2 Units Sample / 6 Units Lot</span></div>
+              </div>
+            </div>
+            <div class="flex items-center gap-2 pt-2">
+              <button onclick="openWhatsAppInquiry('Pulverizers Division Catalog', 'Hello Kisan Crown, please send me the wholesale dealer price list for Commercial Pulverizers and Heavy Grinders.')" class="flex-1 bg-emerald-700 hover:bg-emerald-800 text-white font-bold py-2.5 rounded-xl text-xs transition flex items-center justify-center gap-1.5">
+                <i class="fa-brands fa-whatsapp"></i> Dealer Pricing
+              </button>
+              <a href="#machinery-catalog" onclick="filterCategory('pulverizers')" class="px-3 py-2.5 bg-slate-200 hover:bg-slate-300 text-slate-800 rounded-xl text-xs font-bold transition">
+                View Models
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 5: Cold Press Mini & Commercial Oil Mills -->
+        <div class="bg-slate-50 rounded-2xl border border-slate-200 overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col group">
+          <div class="relative bg-white p-6 flex items-center justify-center border-b border-slate-200 h-64 overflow-hidden">
+            <span class="absolute top-3 left-3 bg-emerald-700 text-white text-[10px] font-black uppercase px-2.5 py-1 rounded-lg">
+              DIVISION 05
+            </span>
+            <span class="absolute top-3 right-3 bg-amber-100 text-amber-900 text-[10px] font-bold px-2 py-0.5 rounded border border-amber-300">
+              400W to 20 kW Industrial
+            </span>
+            <img src="public/images/oil-mill-mini.jpg" alt="Mini and Commercial Oil Mills" class="h-48 w-auto object-contain group-hover:scale-105 transition-transform duration-300">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-heading font-black text-xl text-slate-900 mb-2">
+                Mini & Commercial Oil Extraction Mills
+              </h3>
+              <p class="text-xs text-slate-600 leading-relaxed mb-4">
+                Pure cold-press screw expellers for mustard, sesame, groundnut, sunflower, and coconut. From domestic 400W/600W tabletop models to 20kW commercial extraction lines.
+              </p>
+              <div class="space-y-1.5 text-xs text-slate-700 mb-4 bg-white p-3 rounded-xl border border-slate-200">
+                <div class="flex justify-between"><strong>Key Models:</strong> <span>400W, 600W, 1000W, 3000W & 20kW Expeller</span></div>
+                <div class="flex justify-between"><strong>Extraction Grade:</strong> <span>Cold Press (>95% Oil Recovery)</span></div>
+                <div class="flex justify-between"><strong>Wholesale MOQ:</strong> <span class="text-emerald-700 font-bold">1 Unit Trial / 5 Units Dealer Crate</span></div>
+              </div>
+            </div>
+            <div class="flex items-center gap-2 pt-2">
+              <button onclick="openWhatsAppInquiry('Oil Mill Division Catalog', 'Hello Kisan Crown, please send me the wholesale dealer price list for your Cold Press Oil Expellers & Mini Oil Mills.')" class="flex-1 bg-emerald-700 hover:bg-emerald-800 text-white font-bold py-2.5 rounded-xl text-xs transition flex items-center justify-center gap-1.5">
+                <i class="fa-brands fa-whatsapp"></i> Dealer Pricing
+              </button>
+              <a href="#machinery-catalog" onclick="filterCategory('oil-mills')" class="px-3 py-2.5 bg-slate-200 hover:bg-slate-300 text-slate-800 rounded-xl text-xs font-bold transition">
+                View Models
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 6: Food & Agro-Processing Equipment -->
+        <div class="bg-slate-50 rounded-2xl border border-slate-200 overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col group">
+          <div class="relative bg-white p-6 flex items-center justify-center border-b border-slate-200 h-64 overflow-hidden">
+            <span class="absolute top-3 left-3 bg-emerald-700 text-white text-[10px] font-black uppercase px-2.5 py-1 rounded-lg">
+              DIVISION 06
+            </span>
+            <span class="absolute top-3 right-3 bg-amber-100 text-amber-900 text-[10px] font-bold px-2 py-0.5 rounded border border-amber-300">
+              Pellets, Winnowers & Threshers
+            </span>
+            <img src="public/images/feed-pellet-machine.jpg" alt="Agro and Food Processing Equipment" class="h-48 w-auto object-contain group-hover:scale-105 transition-transform duration-300">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-heading font-black text-xl text-slate-900 mb-2">
+                Food & Agro-Processing Machinery
+              </h3>
+              <p class="text-xs text-slate-600 leading-relaxed mb-4">
+                Specialized processing gear: Multi-crop winnowers & grain graders, cattle/fish feed pellet making machines, 6-gear heavy sugarcane crushers, and paddy threshers.
+              </p>
+              <div class="space-y-1.5 text-xs text-slate-700 mb-4 bg-white p-3 rounded-xl border border-slate-200">
+                <div class="flex justify-between"><strong>Key Models:</strong> <span>Corn Winnower Grader, 210 Pellet Mill, 6-Gear Crusher</span></div>
+                <div class="flex justify-between"><strong>Utility:</strong> <span>Post-Harvest & Value-Add Processing</span></div>
+                <div class="flex justify-between"><strong>Wholesale MOQ:</strong> <span class="text-emerald-700 font-bold">1 Unit Trial / Commercial Lots</span></div>
+              </div>
+            </div>
+            <div class="flex items-center gap-2 pt-2">
+              <button onclick="openWhatsAppInquiry('Food & Agro Processing Division Catalog', 'Hello Kisan Crown, please send me the wholesale dealer price list for Food Processing, Pellet Mills & Winnowers.')" class="flex-1 bg-emerald-700 hover:bg-emerald-800 text-white font-bold py-2.5 rounded-xl text-xs transition flex items-center justify-center gap-1.5">
+                <i class="fa-brands fa-whatsapp"></i> Dealer Pricing
+              </button>
+              <a href="#machinery-catalog" onclick="filterCategory('agro-processing')" class="px-3 py-2.5 bg-slate-200 hover:bg-slate-300 text-slate-800 rounded-xl text-xs font-bold transition">
+                View Models
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bulk Dealership Banner Callout -->
+      <div class="mt-12 bg-gradient-to-r from-slate-900 via-emerald-950 to-slate-900 text-white rounded-3xl p-8 border border-slate-800 shadow-xl flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="space-y-2 text-center md:text-left">
+          <div class="inline-flex items-center gap-2 text-amber-400 font-bold text-xs uppercase tracking-wider">
+            <i class="fa-solid fa-truck-ramp-box"></i> Direct Factory Sourcing for Dealerships
+          </div>
+          <h3 class="text-xl sm:text-2xl font-black font-heading">
+            Looking to Stock All Categories in Your District Showroom?
+          </h3>
+          <p class="text-slate-300 text-xs sm:text-sm max-w-2xl">
+            Mix and match machinery categories in a single container or bulk truckload dispatch. Get full manufacturer distributor discount slabs, free retail showroom standees, and exclusive district rights.
+          </p>
+        </div>
+        <div class="shrink-0 flex flex-col sm:flex-row gap-3">
+          <a href="#dealership-form" class="bg-amber-500 hover:bg-amber-400 text-slate-950 font-black px-6 py-3.5 rounded-xl transition text-sm flex items-center justify-center gap-2 shadow-lg">
+            <i class="fa-solid fa-file-contract"></i> Apply for District Franchise
+          </a>
+          <button onclick="openWhatsAppInquiry('Complete B2B Wholesale Dealership Portfolio', 'Hello GTB International / Kisan Crown team, we want to stock your complete machinery catalog in our store. Please share the master dealership proposal and distributor discount slab.')" class="bg-white/10 hover:bg-white/20 border border-white/20 text-white font-bold px-6 py-3.5 rounded-xl transition text-sm flex items-center justify-center gap-2">
+            <i class="fa-brands fa-whatsapp text-emerald-400 text-base"></i> Direct B2B Chat
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- SECTION 2: COMPREHENSIVE FILTERABLE B2B PRODUCT CATALOG                  -->
+  <!-- ========================================================================= -->
+  <section id="machinery-catalog" class="py-16 bg-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-8">
+        <span class="text-xs uppercase font-extrabold tracking-widest text-emerald-800 bg-emerald-200/60 px-3 py-1 rounded-full">
+          FACTORY DIRECT INVENTORY
+        </span>
+        <h2 class="font-heading font-black text-2xl sm:text-4xl text-slate-900 mt-3" data-en="Wholesale Machinery Catalog & Specifications" data-hi="थोक मशीनरी कैटलॉग और तकनीकी विवरण">
+          Wholesale Machinery Catalog & Specifications
+        </h2>
+        <p class="text-slate-600 mt-2 text-sm">
+          Select a category to view high-demand models, wholesale MOQs, technical specifications, and factory dispatch details.
+        </p>
+
+        <!-- Category Filter Tabs -->
+        <div class="flex flex-wrap justify-center gap-2 mt-6">
+          <button onclick="filterCategory('all', this)" class="category-filter-tab px-4 py-2 rounded-xl text-xs font-bold transition border border-emerald-700 bg-emerald-700 text-white shadow-md">
+            All Machinery
+          </button>
+          <button onclick="filterCategory('rice-mills', this)" class="category-filter-tab px-4 py-2 rounded-xl text-xs font-bold transition border border-slate-200 bg-white text-slate-700 hover:bg-slate-50">
+            Rice Mills (6N Series)
+          </button>
+          <button onclick="filterCategory('power-weeders', this)" class="category-filter-tab px-4 py-2 rounded-xl text-xs font-bold transition border border-slate-200 bg-white text-slate-700 hover:bg-slate-50">
+            7HP Power Weeders
+          </button>
+          <button onclick="filterCategory('sprayers', this)" class="category-filter-tab px-4 py-2 rounded-xl text-xs font-bold transition border border-slate-200 bg-white text-slate-700 hover:bg-slate-50">
+            Battery Sprayers
+          </button>
+          <button onclick="filterCategory('pulverizers', this)" class="category-filter-tab px-4 py-2 rounded-xl text-xs font-bold transition border border-slate-200 bg-white text-slate-700 hover:bg-slate-50">
+            Pulverizers & Grinders
+          </button>
+          <button onclick="filterCategory('oil-mills', this)" class="category-filter-tab px-4 py-2 rounded-xl text-xs font-bold transition border border-slate-200 bg-white text-slate-700 hover:bg-slate-50">
+            Oil Expellers
+          </button>
+          <button onclick="filterCategory('agro-processing', this)" class="category-filter-tab px-4 py-2 rounded-xl text-xs font-bold transition border border-slate-200 bg-white text-slate-700 hover:bg-slate-50">
+            Agro-Processing & Pellets
+          </button>
+        </div>
+      </div>
+
+      <!-- Product Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pt-4">
+        
+        <!-- CARD 1: 6N-110 Semi-Commercial Rice Mill -->
+        <div class="product-catalog-card bg-white rounded-3xl border border-slate-200 shadow-md hover:shadow-2xl transition duration-300 flex flex-col justify-between overflow-hidden" data-category="rice-mills">
+          <div class="relative p-6 bg-slate-50 border-b border-slate-100 flex items-center justify-center h-64">
+            <span class="absolute top-4 left-4 bg-emerald-800 text-white font-bold text-[10px] px-2.5 py-1 rounded-full uppercase">
+              TOP B2B SELLER
+            </span>
+            <span class="absolute top-4 right-4 bg-slate-900 text-amber-400 font-bold text-[10px] px-2.5 py-1 rounded-full">
+              Single Phase 220V
+            </span>
+            <img src="public/images/product-4.png" alt="6N-110 Semi-Commercial Rice Mill" class="h-48 w-auto object-contain">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+                <span>Model Code: <strong>RM-110</strong></span>
+                <span class="text-emerald-700 font-bold">MOQ: 1 Unit Sample / 5 Bulk</span>
+              </div>
+              <h3 class="font-heading font-black text-xl text-slate-900 mb-2">6N-110 Semi-Commercial Rice Mill</h3>
+              <p class="text-xs text-slate-600 mb-4">India's benchmark high-capacity single-phase milling unit with cast-alloy milling barrel and auto-destoning hopper.</p>
+              
+              <div class="grid grid-cols-2 gap-2 text-xs text-slate-700 mb-4 bg-slate-50 p-3 rounded-xl">
+                <div><span class="text-slate-400 block text-[10px]">OUTPUT:</span> <strong>200 - 250 kg/hr</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">MOTOR:</span> <strong>3 HP Copper Wound</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">POWER:</span> <strong>220V Single Phase</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">DEALER MARGIN:</span> <strong class="text-emerald-700">25% - 30%</strong></div>
+              </div>
+            </div>
+            
+            <div class="space-y-2 pt-2">
+              <button onclick="openQuotationModal('6N-110 Semi-Commercial Rice Mill', 'RM-110', 58000, '1 Unit Trial / 5 Units Dealer Crate')" class="w-full bg-emerald-700 hover:bg-emerald-800 text-white font-bold py-2.5 rounded-xl text-xs transition flex items-center justify-center gap-1.5">
+                <i class="fa-solid fa-file-invoice"></i> Request Wholesale Quote
+              </button>
+              <a href="/6n-110" class="block text-center text-xs font-bold text-slate-600 hover:text-emerald-700 py-1 transition">
+                View Full Technical Specsheet &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 2: 6N-70 Ultra Pro Max -->
+        <div class="product-catalog-card bg-white rounded-3xl border border-slate-200 shadow-md hover:shadow-2xl transition duration-300 flex flex-col justify-between overflow-hidden" data-category="rice-mills">
+          <div class="relative p-6 bg-slate-50 border-b border-slate-100 flex items-center justify-center h-64">
+            <span class="absolute top-4 left-4 bg-amber-600 text-white font-bold text-[10px] px-2.5 py-1 rounded-full uppercase">
+              HEAVY COMMERCIAL PLANT
+            </span>
+            <span class="absolute top-4 right-4 bg-slate-900 text-emerald-400 font-bold text-[10px] px-2.5 py-1 rounded-full">
+              Dual Mill + Pulverizer
+            </span>
+            <img src="public/images/product-3.png" alt="6N-70 Ultra Pro Max" class="h-48 w-auto object-contain">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+                <span>Model Code: <strong>RM-70UPM</strong></span>
+                <span class="text-emerald-700 font-bold">MOQ: 1 Unit / Bulk Lot</span>
+              </div>
+              <h3 class="font-heading font-black text-xl text-slate-900 mb-2">6N-70 Ultra Pro Max (Combined)</h3>
+              <p class="text-xs text-slate-600 mb-4">All-in-one commercial milling center combining heavy 800 kg/hr rice dehusking with high-speed cyclone flour/spice pulverizer.</p>
+              
+              <div class="grid grid-cols-2 gap-2 text-xs text-slate-700 mb-4 bg-slate-50 p-3 rounded-xl">
+                <div><span class="text-slate-400 block text-[10px]">OUTPUT:</span> <strong>600 - 800 kg/hr</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">MOTOR:</span> <strong>10 HP Heavy 3-Phase</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">ATTACHMENT:</span> <strong>Flour/Spice Cyclone</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">DEALER MARGIN:</span> <strong class="text-emerald-700">28% - 35%</strong></div>
+              </div>
+            </div>
+            
+            <div class="space-y-2 pt-2">
+              <button onclick="openQuotationModal('6N-70 Ultra Pro Max Combined Mill', 'RM-70UPM', 115000, '1 Commercial Plant / Container')" class="w-full bg-emerald-700 hover:bg-emerald-800 text-white font-bold py-2.5 rounded-xl text-xs transition flex items-center justify-center gap-1.5">
+                <i class="fa-solid fa-file-invoice"></i> Request Wholesale Quote
+              </button>
+              <a href="/6n-70-ultra-pro" class="block text-center text-xs font-bold text-slate-600 hover:text-emerald-700 py-1 transition">
+                View Full Technical Specsheet &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 3: 7 HP Power Weeder 7000P -->
+        <div class="product-catalog-card bg-white rounded-3xl border border-slate-200 shadow-md hover:shadow-2xl transition duration-300 flex flex-col justify-between overflow-hidden" data-category="power-weeders">
+          <div class="relative p-6 bg-slate-50 border-b border-slate-100 flex items-center justify-center h-64">
+            <span class="absolute top-4 left-4 bg-emerald-700 text-white font-bold text-[10px] px-2.5 py-1 rounded-full uppercase">
+              7 HP HIGH TORQUE
+            </span>
+            <span class="absolute top-4 right-4 bg-amber-100 text-amber-900 font-bold text-[10px] px-2.5 py-1 rounded-full">
+              ATV Heavy Tyres
+            </span>
+            <img src="public/images/power-weeder-7000p.jpg" alt="7 HP Power Weeder 7000P" class="h-48 w-auto object-contain">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+                <span>Model Code: <strong>PW-7000P</strong></span>
+                <span class="text-emerald-700 font-bold">MOQ: 2 Units / 10 Dealer Lot</span>
+              </div>
+              <h3 class="font-heading font-black text-xl text-slate-900 mb-2">7 HP Power Weeder 7000P</h3>
+              <p class="text-xs text-slate-600 mb-4">Heavy-duty rotary inter-cultivator equipped with 32 rotary tines, dual PTO shafts, and reinforced gearbox for tough soils.</p>
+              
+              <div class="grid grid-cols-2 gap-2 text-xs text-slate-700 mb-4 bg-slate-50 p-3 rounded-xl">
+                <div><span class="text-slate-400 block text-[10px]">ENGINE:</span> <strong>7.0 HP 4-Stroke Air-Cooled</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">TILLING WIDTH:</span> <strong>Up to 3.5 Feet Adjustable</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">GEARS:</span> <strong>2 Forward + 1 Reverse</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">DEALER MARGIN:</span> <strong class="text-emerald-700">30% - 35%</strong></div>
+              </div>
+            </div>
+            
+            <div class="space-y-2 pt-2">
+              <button onclick="openQuotationModal('7 HP Power Weeder 7000P', 'PW-7000P', 38000, '2 Units Trial / 10 Units Dealer Crate')" class="w-full bg-emerald-700 hover:bg-emerald-800 text-white font-bold py-2.5 rounded-xl text-xs transition flex items-center justify-center gap-1.5">
+                <i class="fa-solid fa-file-invoice"></i> Request Wholesale Quote
+              </button>
+              <a href="/power-weeder-7000p" class="block text-center text-xs font-bold text-slate-600 hover:text-emerald-700 py-1 transition">
+                View Full Technical Specsheet &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 4: 7 HP Power Weeder 8000P -->
+        <div class="product-catalog-card bg-white rounded-3xl border border-slate-200 shadow-md hover:shadow-2xl transition duration-300 flex flex-col justify-between overflow-hidden" data-category="power-weeders">
+          <div class="relative p-6 bg-slate-50 border-b border-slate-100 flex items-center justify-center h-64">
+            <span class="absolute top-4 left-4 bg-slate-900 text-amber-400 font-bold text-[10px] px-2.5 py-1 rounded-full uppercase">
+              PREMIUM ROTARY SERIES
+            </span>
+            <span class="absolute top-4 right-4 bg-emerald-100 text-emerald-800 font-bold text-[10px] px-2.5 py-1 rounded-full">
+              Dual PTO Drive
+            </span>
+            <img src="public/images/power-weeder-8000p.jpg" alt="7 HP Power Weeder 8000P" class="h-48 w-auto object-contain">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+                <span>Model Code: <strong>PW-8000P</strong></span>
+                <span class="text-emerald-700 font-bold">MOQ: 2 Units / 10 Dealer Lot</span>
+              </div>
+              <h3 class="font-heading font-black text-xl text-slate-900 mb-2">7 HP Power Weeder 8000P Pro</h3>
+              <p class="text-xs text-slate-600 mb-4">Advanced intercultivator with differential lock for effortless cornering, heavy oil-bath air filter, and PTO water pump compatibility.</p>
+              
+              <div class="grid grid-cols-2 gap-2 text-xs text-slate-700 mb-4 bg-slate-50 p-3 rounded-xl">
+                <div><span class="text-slate-400 block text-[10px]">ENGINE:</span> <strong>7.0 HP Commercial Petrol</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">TILLING DEPTH:</span> <strong>6 - 8 Inches Adjustable</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">ATTACHMENTS:</span> <strong>Reaper, Ridger, Pump</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">DEALER MARGIN:</span> <strong class="text-emerald-700">30% - 35%</strong></div>
+              </div>
+            </div>
+            
+            <div class="space-y-2 pt-2">
+              <button onclick="openQuotationModal('7 HP Power Weeder 8000P', 'PW-8000P', 42000, '2 Units Trial / 10 Units Dealer Crate')" class="w-full bg-emerald-700 hover:bg-emerald-800 text-white font-bold py-2.5 rounded-xl text-xs transition flex items-center justify-center gap-1.5">
+                <i class="fa-solid fa-file-invoice"></i> Request Wholesale Quote
+              </button>
+              <a href="/power-weeder-8000p" class="block text-center text-xs font-bold text-slate-600 hover:text-emerald-700 py-1 transition">
+                View Full Technical Specsheet &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 5: Kisan Crown Double Motor Sprayer -->
+        <div class="product-catalog-card bg-white rounded-3xl border border-slate-200 shadow-md hover:shadow-2xl transition duration-300 flex flex-col justify-between overflow-hidden" data-category="sprayers">
+          <div class="relative p-6 bg-slate-50 border-b border-slate-100 flex items-center justify-center h-64">
+            <span class="absolute top-4 left-4 bg-emerald-700 text-white font-bold text-[10px] px-2.5 py-1 rounded-full uppercase">
+              HIGH VOLUME B2B
+            </span>
+            <span class="absolute top-4 right-4 bg-amber-100 text-amber-900 font-bold text-[10px] px-2.5 py-1 rounded-full">
+              12V 12Ah Dual Pump
+            </span>
+            <img src="public/images/sprayer-double-motor.jpg" alt="Kisan Crown Double Motor Sprayer" class="h-48 w-auto object-contain">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+                <span>Model Code: <strong>KC-DHP1</strong></span>
+                <span class="text-emerald-700 font-bold">MOQ: 10 Units Master Carton</span>
+              </div>
+              <h3 class="font-heading font-black text-xl text-slate-900 mb-2">Double Motor Battery Sprayer</h3>
+              <p class="text-xs text-slate-600 mb-4">Commercial knapsack sprayer with dual diaphragm pumps delivering double spray output (8 L/min) for large orchards and tall crops.</p>
+              
+              <div class="grid grid-cols-2 gap-2 text-xs text-slate-700 mb-4 bg-slate-50 p-3 rounded-xl">
+                <div><span class="text-slate-400 block text-[10px]">TANK:</span> <strong>16 / 18 / 20 Liters Virgin PP</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">BATTERY:</span> <strong>12V 12Ah Heavy Battery</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">PRESSURE:</span> <strong>110 PSI Dual Mode</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">DEALER MARGIN:</span> <strong class="text-emerald-700">32% - 38%</strong></div>
+              </div>
+            </div>
+            
+            <div class="space-y-2 pt-2">
+              <button onclick="openQuotationModal('Double Motor Battery Sprayer', 'KC-DHP1', 3200, '10 Units Master Carton')" class="w-full bg-emerald-700 hover:bg-emerald-800 text-white font-bold py-2.5 rounded-xl text-xs transition flex items-center justify-center gap-1.5">
+                <i class="fa-solid fa-file-invoice"></i> Request Wholesale Quote
+              </button>
+              <a href="/battery-sprayer-double-motor" class="block text-center text-xs font-bold text-slate-600 hover:text-emerald-700 py-1 transition">
+                View Full Technical Specsheet &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 6: 3 HP Commercial Pulverizer -->
+        <div class="product-catalog-card bg-white rounded-3xl border border-slate-200 shadow-md hover:shadow-2xl transition duration-300 flex flex-col justify-between overflow-hidden" data-category="pulverizers">
+          <div class="relative p-6 bg-slate-50 border-b border-slate-100 flex items-center justify-center h-64">
+            <span class="absolute top-4 left-4 bg-slate-900 text-amber-400 font-bold text-[10px] px-2.5 py-1 rounded-full uppercase">
+              COMMERCIAL GRINDING
+            </span>
+            <span class="absolute top-4 right-4 bg-emerald-100 text-emerald-800 font-bold text-[10px] px-2.5 py-1 rounded-full">
+              Heavy Cyclone Tank
+            </span>
+            <img src="public/images/pulverizer-3hp.jpg" alt="3 HP Commercial Pulverizer" class="h-48 w-auto object-contain">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+                <span>Model Code: <strong>PLV-3HP</strong></span>
+                <span class="text-emerald-700 font-bold">MOQ: 2 Units / 6 Units Lot</span>
+              </div>
+              <h3 class="font-heading font-black text-xl text-slate-900 mb-2">3 HP Heavy Duty Pulverizer</h3>
+              <p class="text-xs text-slate-600 mb-4">Precision stainless steel beating chamber for grains, spices, turmeric, and besan. Zero stone contact ensures 100% hygienic output.</p>
+              
+              <div class="grid grid-cols-2 gap-2 text-xs text-slate-700 mb-4 bg-slate-50 p-3 rounded-xl">
+                <div><span class="text-slate-400 block text-[10px]">OUTPUT:</span> <strong>35 - 50 kg/hr Fine Flour</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">MOTOR:</span> <strong>3.0 HP 2880 RPM Copper</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">CHAMBER:</span> <strong>Heavy SS Beater Blades</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">DEALER MARGIN:</span> <strong class="text-emerald-700">25% - 30%</strong></div>
+              </div>
+            </div>
+            
+            <div class="space-y-2 pt-2">
+              <button onclick="openQuotationModal('3 HP Commercial Pulverizer', 'PLV-3HP', 29500, '2 Units Trial / 6 Units Lot')" class="w-full bg-emerald-700 hover:bg-emerald-800 text-white font-bold py-2.5 rounded-xl text-xs transition flex items-center justify-center gap-1.5">
+                <i class="fa-solid fa-file-invoice"></i> Request Wholesale Quote
+              </button>
+              <a href="/commercial-pulverizer-3hp" class="block text-center text-xs font-bold text-slate-600 hover:text-emerald-700 py-1 transition">
+                View Full Technical Specsheet &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 7: Cold Press Mini Oil Mill 400W & 1000W -->
+        <div class="product-catalog-card bg-white rounded-3xl border border-slate-200 shadow-md hover:shadow-2xl transition duration-300 flex flex-col justify-between overflow-hidden" data-category="oil-mills">
+          <div class="relative p-6 bg-slate-50 border-b border-slate-100 flex items-center justify-center h-64">
+            <span class="absolute top-4 left-4 bg-emerald-800 text-white font-bold text-[10px] px-2.5 py-1 rounded-full uppercase">
+              COLD PRESS EXTRACTION
+            </span>
+            <span class="absolute top-4 right-4 bg-amber-100 text-amber-900 font-bold text-[10px] px-2.5 py-1 rounded-full">
+              Pure SS304 Screw
+            </span>
+            <img src="public/images/oil-mill-mini.jpg" alt="Mini Cold Press Oil Mill" class="h-48 w-auto object-contain">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+                <span>Model Code: <strong>OM-400 / OM-1000</strong></span>
+                <span class="text-emerald-700 font-bold">MOQ: 1 Unit / 5 Units Crate</span>
+              </div>
+              <h3 class="font-heading font-black text-xl text-slate-900 mb-2">Cold Press Mini Oil Mill</h3>
+              <p class="text-xs text-slate-600 mb-4">High-demand domestic and semi-commercial cold-press expeller for organic mustard, sesame, groundnut, and almond oil processing.</p>
+              
+              <div class="grid grid-cols-2 gap-2 text-xs text-slate-700 mb-4 bg-slate-50 p-3 rounded-xl">
+                <div><span class="text-slate-400 block text-[10px]">CAPACITY:</span> <strong>5 - 12 kg/hr Raw Seed</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">POWER:</span> <strong>400W to 1000W 220V</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">RECOVERY:</span> <strong>>95% Organic Oil Yield</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">DEALER MARGIN:</span> <strong class="text-emerald-700">28% - 33%</strong></div>
+              </div>
+            </div>
+            
+            <div class="space-y-2 pt-2">
+              <button onclick="openQuotationModal('Cold Press Mini Oil Mill', 'OM-1000', 26500, '1 Unit Trial / 5 Units Dealer Crate')" class="w-full bg-emerald-700 hover:bg-emerald-800 text-white font-bold py-2.5 rounded-xl text-xs transition flex items-center justify-center gap-1.5">
+                <i class="fa-solid fa-file-invoice"></i> Request Wholesale Quote
+              </button>
+              <a href="/cold-press-oil-mill" class="block text-center text-xs font-bold text-slate-600 hover:text-emerald-700 py-1 transition">
+                View Full Technical Specsheet &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 8: 20kW Commercial Oil Expeller Plant -->
+        <div class="product-catalog-card bg-white rounded-3xl border border-slate-200 shadow-md hover:shadow-2xl transition duration-300 flex flex-col justify-between overflow-hidden" data-category="oil-mills">
+          <div class="relative p-6 bg-slate-50 border-b border-slate-100 flex items-center justify-center h-64">
+            <span class="absolute top-4 left-4 bg-slate-900 text-amber-400 font-bold text-[10px] px-2.5 py-1 rounded-full uppercase">
+              HEAVY INDUSTRIAL EXPELLER
+            </span>
+            <span class="absolute top-4 right-4 bg-emerald-100 text-emerald-800 font-bold text-[10px] px-2.5 py-1 rounded-full">
+              20 kW / 25 HP
+            </span>
+            <img src="public/images/oil-mill-commercial-20kw.jpg" alt="20kW Industrial Oil Mill Expeller" class="h-48 w-auto object-contain">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+                <span>Model Code: <strong>OM-20KW</strong></span>
+                <span class="text-emerald-700 font-bold">MOQ: 1 Commercial Line</span>
+              </div>
+              <h3 class="font-heading font-black text-xl text-slate-900 mb-2">20 kW Commercial Oil Expeller</h3>
+              <p class="text-xs text-slate-600 mb-4">Continuous industrial oil mill with hardened alloy worm assembly and integrated filter press pump for commercial oil extraction facilities.</p>
+              
+              <div class="grid grid-cols-2 gap-2 text-xs text-slate-700 mb-4 bg-slate-50 p-3 rounded-xl">
+                <div><span class="text-slate-400 block text-[10px]">CAPACITY:</span> <strong>120 - 200 kg/hr Seed</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">POWER:</span> <strong>20 kW / 25 HP 440V 3-Phase</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">OPERATION:</span> <strong>Heavy Continuous Duty</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">DEALER MARGIN:</span> <strong class="text-emerald-700">22% - 28%</strong></div>
+              </div>
+            </div>
+            
+            <div class="space-y-2 pt-2">
+              <button onclick="openQuotationModal('20kW Commercial Oil Expeller', 'OM-20KW', 285000, '1 Complete Industrial Line')" class="w-full bg-emerald-700 hover:bg-emerald-800 text-white font-bold py-2.5 rounded-xl text-xs transition flex items-center justify-center gap-1.5">
+                <i class="fa-solid fa-file-invoice"></i> Request Commercial RFP
+              </button>
+              <button onclick="openWhatsAppInquiry('20kW Oil Expeller Project', 'Hello Kisan Crown, please send me the technical commercial quotation and layout for 20kW Oil Mill Expeller.')" class="block w-full text-center text-xs font-bold text-slate-600 hover:text-emerald-700 py-1 transition">
+                Request Turnkey Project Proposal &rarr;
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 9: 210 3-Roller Feed Pellet Machine -->
+        <div class="product-catalog-card bg-white rounded-3xl border border-slate-200 shadow-md hover:shadow-2xl transition duration-300 flex flex-col justify-between overflow-hidden" data-category="agro-processing">
+          <div class="relative p-6 bg-slate-50 border-b border-slate-100 flex items-center justify-center h-64">
+            <span class="absolute top-4 left-4 bg-emerald-800 text-white font-bold text-[10px] px-2.5 py-1 rounded-full uppercase">
+              CATTLE & FISH FEED
+            </span>
+            <span class="absolute top-4 right-4 bg-amber-100 text-amber-900 font-bold text-[10px] px-2.5 py-1 rounded-full">
+              3-Roller Heavy Die
+            </span>
+            <img src="public/images/feed-pellet-machine.jpg" alt="210 3-Roller Feed Pellet Machine" class="h-48 w-auto object-contain">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+                <span>Model Code: <strong>PM-210-3R</strong></span>
+                <span class="text-emerald-700 font-bold">MOQ: 1 Unit / 4 Units Crate</span>
+              </div>
+              <h3 class="font-heading font-black text-xl text-slate-900 mb-2">210 3-Roller Feed Pellet Machine</h3>
+              <p class="text-xs text-slate-600 mb-4">Industrial granulator converting agricultural residue, bran, and fodder into durable cattle, poultry, and fish feed pellets.</p>
+              
+              <div class="grid grid-cols-2 gap-2 text-xs text-slate-700 mb-4 bg-slate-50 p-3 rounded-xl">
+                <div><span class="text-slate-400 block text-[10px]">OUTPUT:</span> <strong>200 - 350 kg/hr Pellets</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">MOTOR:</span> <strong>7.5 HP / 10 HP Electric</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">DIE SIZES:</span> <strong>2mm to 8mm Interchangeable</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">DEALER MARGIN:</span> <strong class="text-emerald-700">25% - 30%</strong></div>
+              </div>
+            </div>
+            
+            <div class="space-y-2 pt-2">
+              <button onclick="openQuotationModal('210 3-Roller Feed Pellet Mill', 'PM-210-3R', 78000, '1 Unit Trial / 4 Units Lot')" class="w-full bg-emerald-700 hover:bg-emerald-800 text-white font-bold py-2.5 rounded-xl text-xs transition flex items-center justify-center gap-1.5">
+                <i class="fa-solid fa-file-invoice"></i> Request Wholesale Quote
+              </button>
+              <a href="/feed-pellet-machine-210" class="block text-center text-xs font-bold text-slate-600 hover:text-emerald-700 py-1 transition">
+                View Full Technical Specsheet &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 10: Corn Winnower Cum Grader -->
+        <div class="product-catalog-card bg-white rounded-3xl border border-slate-200 shadow-md hover:shadow-2xl transition duration-300 flex flex-col justify-between overflow-hidden" data-category="agro-processing">
+          <div class="relative p-6 bg-slate-50 border-b border-slate-100 flex items-center justify-center h-64">
+            <span class="absolute top-4 left-4 bg-slate-900 text-amber-400 font-bold text-[10px] px-2.5 py-1 rounded-full uppercase">
+              MULTI-CROP CLEANING
+            </span>
+            <span class="absolute top-4 right-4 bg-emerald-100 text-emerald-800 font-bold text-[10px] px-2.5 py-1 rounded-full">
+              1,500 kg/hr
+            </span>
+            <img src="public/images/corn-winnower-grader.jpg" alt="Corn Winnower Cum Grader" class="h-48 w-auto object-contain">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+                <span>Model Code: <strong>WCG-1500</strong></span>
+                <span class="text-emerald-700 font-bold">MOQ: 1 Unit / 5 Units Crate</span>
+              </div>
+              <h3 class="font-heading font-black text-xl text-slate-900 mb-2">Corn Winnower Cum Grader</h3>
+              <p class="text-xs text-slate-600 mb-4">High-velocity dual-blower separator and vibrating screen cleaning paddy, wheat, corn, mustard, and soybean from chaff and dust.</p>
+              
+              <div class="grid grid-cols-2 gap-2 text-xs text-slate-700 mb-4 bg-slate-50 p-3 rounded-xl">
+                <div><span class="text-slate-400 block text-[10px]">OUTPUT:</span> <strong>1200 - 1500 kg/hr Continuous</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">MOTOR:</span> <strong>3.0 HP Single Phase 220V</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">SIEVES:</span> <strong>Quick-Change Multi-Crop Decks</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">DEALER MARGIN:</span> <strong class="text-emerald-700">25% - 30%</strong></div>
+              </div>
+            </div>
+            
+            <div class="space-y-2 pt-2">
+              <button onclick="openQuotationModal('Corn Winnower Cum Grader', 'WCG-1500', 44000, '1 Unit Trial / 5 Units Dealer Crate')" class="w-full bg-emerald-700 hover:bg-emerald-800 text-white font-bold py-2.5 rounded-xl text-xs transition flex items-center justify-center gap-1.5">
+                <i class="fa-solid fa-file-invoice"></i> Request Wholesale Quote
+              </button>
+              <a href="/winover-cum-grader" class="block text-center text-xs font-bold text-slate-600 hover:text-emerald-700 py-1 transition">
+                View Full Technical Specsheet &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 11: 6-Gear Heavy Duty Sugarcane Crusher -->
+        <div class="product-catalog-card bg-white rounded-3xl border border-slate-200 shadow-md hover:shadow-2xl transition duration-300 flex flex-col justify-between overflow-hidden" data-category="agro-processing">
+          <div class="relative p-6 bg-slate-50 border-b border-slate-100 flex items-center justify-center h-64">
+            <span class="absolute top-4 left-4 bg-emerald-800 text-white font-bold text-[10px] px-2.5 py-1 rounded-full uppercase">
+              6-GEAR HEAVY TRANSMISSION
+            </span>
+            <span class="absolute top-4 right-4 bg-amber-100 text-amber-900 font-bold text-[10px] px-2.5 py-1 rounded-full">
+              Single Pass 100% Juice
+            </span>
+            <img src="public/images/sugarcane-machine-6gear.jpg" alt="6-Gear Sugarcane Juice Machine" class="h-48 w-auto object-contain">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+                <span>Model Code: <strong>SCM-6G</strong></span>
+                <span class="text-emerald-700 font-bold">MOQ: 1 Unit / 6 Units Lot</span>
+              </div>
+              <h3 class="font-heading font-black text-xl text-slate-900 mb-2">6-Gear Sugarcane Crusher Plant</h3>
+              <p class="text-xs text-slate-600 mb-4">Heavy-duty 6-gear drive with precision diamond-cut stainless steel rollers extracting 100% juice in a single pass without bagasse re-crushing.</p>
+              
+              <div class="grid grid-cols-2 gap-2 text-xs text-slate-700 mb-4 bg-slate-50 p-3 rounded-xl">
+                <div><span class="text-slate-400 block text-[10px]">CAPACITY:</span> <strong>350 - 450 kg/hr Cane</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">MOTOR:</span> <strong>2.0 HP Heavy Single Phase</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">ROLLERS:</span> <strong>3 Heavy SS304 Rollers</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">DEALER MARGIN:</span> <strong class="text-emerald-700">28% - 33%</strong></div>
+              </div>
+            </div>
+            
+            <div class="space-y-2 pt-2">
+              <button onclick="openQuotationModal('6-Gear Sugarcane Crusher', 'SCM-6G', 36000, '1 Unit Trial / 6 Units Lot')" class="w-full bg-emerald-700 hover:bg-emerald-800 text-white font-bold py-2.5 rounded-xl text-xs transition flex items-center justify-center gap-1.5">
+                <i class="fa-solid fa-file-invoice"></i> Request Wholesale Quote
+              </button>
+              <a href="/sugarcane-juice-machine" class="block text-center text-xs font-bold text-slate-600 hover:text-emerald-700 py-1 transition">
+                View Full Technical Specsheet &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 12: High-Performance Paddy Thresher -->
+        <div class="product-catalog-card bg-white rounded-3xl border border-slate-200 shadow-md hover:shadow-2xl transition duration-300 flex flex-col justify-between overflow-hidden" data-category="agro-processing">
+          <div class="relative p-6 bg-slate-50 border-b border-slate-100 flex items-center justify-center h-64">
+            <span class="absolute top-4 left-4 bg-slate-900 text-amber-400 font-bold text-[10px] px-2.5 py-1 rounded-full uppercase">
+              HIGH EFFICIENCY
+            </span>
+            <span class="absolute top-4 right-4 bg-emerald-100 text-emerald-800 font-bold text-[10px] px-2.5 py-1 rounded-full">
+              Paddy & Wheat
+            </span>
+            <img src="public/images/paddy-thresher.jpg" alt="Paddy Thresher Machine" class="h-48 w-auto object-contain">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+                <span>Model Code: <strong>PTM-HE</strong></span>
+                <span class="text-emerald-700 font-bold">MOQ: 1 Unit / Bulk Lot</span>
+              </div>
+              <h3 class="font-heading font-black text-xl text-slate-900 mb-2">High Efficiency Paddy Thresher</h3>
+              <p class="text-xs text-slate-600 mb-4">Precision threshing cylinder delivering 99.5% grain separation with minimal grain breakage and clean straw discharge.</p>
+              
+              <div class="grid grid-cols-2 gap-2 text-xs text-slate-700 mb-4 bg-slate-50 p-3 rounded-xl">
+                <div><span class="text-slate-400 block text-[10px]">OUTPUT:</span> <strong>800 - 1200 kg/hr Paddy</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">POWER:</span> <strong>Electric Motor / Engine / PTO</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">BLOWER:</span> <strong>Dual High-CFM Winnow Blower</strong></div>
+                <div><span class="text-slate-400 block text-[10px]">DEALER MARGIN:</span> <strong class="text-emerald-700">25% - 30%</strong></div>
+              </div>
+            </div>
+            
+            <div class="space-y-2 pt-2">
+              <button onclick="openQuotationModal('High Efficiency Paddy Thresher', 'PTM-HE', 52000, '1 Unit Trial / 5 Units Crate')" class="w-full bg-emerald-700 hover:bg-emerald-800 text-white font-bold py-2.5 rounded-xl text-xs transition flex items-center justify-center gap-1.5">
+                <i class="fa-solid fa-file-invoice"></i> Request Wholesale Quote
+              </button>
+              <button onclick="openWhatsAppInquiry('Paddy Thresher Machine', 'Hello Kisan Crown, please send me the dealer wholesale pricing for High Efficiency Paddy Thresher.')" class="block w-full text-center text-xs font-bold text-slate-600 hover:text-emerald-700 py-1 transition">
+                Inquire Tractor / Engine Compatibility &rarr;
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- SECTION 3: B2B DEALERSHIP ADVANTAGES ("WHY 500+ DEALERS STOCK KISAN CROWN")-->
+  <!-- ========================================================================= -->
+  <section id="dealership-advantages" class="py-16 bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-xs uppercase font-extrabold tracking-widest text-emerald-800 bg-emerald-100 px-3 py-1 rounded-full">
+          DEALERSHIP PROGRAM
+        </span>
+        <h2 class="font-heading font-black text-2xl sm:text-4xl text-slate-900 mt-3" data-en="Why 500+ Agricultural Machinery Dealers Partner With Us" data-hi="500+ कृषि उपकरण डीलर किसान क्राउन से क्यों जुड़ते हैं">
+          Why 500+ Agricultural Machinery Dealers Partner With Us
+        </h2>
+        <p class="text-slate-600 mt-2 text-sm sm:text-base leading-relaxed">
+          We protect our authorized retail dealers with direct factory pricing, genuine exclusive territories, and continuous spare parts support.
+        </p>
+      </div>
+
+      <!-- 4 Core B2B Dealer Pillars -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 hover:shadow-lg transition">
+          <div class="w-12 h-12 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center text-xl mb-4 font-black">
+            <i class="fa-solid fa-percent"></i>
+          </div>
+          <h3 class="font-heading font-black text-lg text-slate-900 mb-2">High Profit Margins</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Earn 25% to 35% gross profit margin on every machine. Direct factory sourcing means zero broker commissions or wholesale middleman cuts.
+          </p>
+          <div class="mt-4 text-[11px] font-bold text-amber-700">₹8,000 to ₹35,000 Net Margin / Unit</div>
+        </div>
+
+        <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 hover:shadow-lg transition">
+          <div class="w-12 h-12 rounded-xl bg-emerald-700 text-white flex items-center justify-center text-xl mb-4">
+            <i class="fa-solid fa-map-location-dot"></i>
+          </div>
+          <h3 class="font-heading font-black text-lg text-slate-900 mb-2">District Exclusivity</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            We provide protected territory agreements for qualifying dealerships. No multiple competing dealers appointed in the same local mandi market.
+          </p>
+          <div class="mt-4 text-[11px] font-bold text-emerald-800">Protected Sales Jurisdiction</div>
+        </div>
+
+        <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 hover:shadow-lg transition">
+          <div class="w-12 h-12 rounded-xl bg-slate-900 text-emerald-400 flex items-center justify-center text-xl mb-4">
+            <i class="fa-solid fa-gears"></i>
+          </div>
+          <h3 class="font-heading font-black text-lg text-slate-900 mb-2">100% Ready Spares</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Raipur central mother plant stocks all rollers, screens, sieves, blades, carburetors, and motors. Dispatched within 24 hours to your shop.
+          </p>
+          <div class="mt-4 text-[11px] font-bold text-slate-900">Zero Customer Downtime</div>
+        </div>
+
+        <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 hover:shadow-lg transition">
+          <div class="w-12 h-12 rounded-xl bg-emerald-700 text-amber-400 flex items-center justify-center text-xl mb-4">
+            <i class="fa-solid fa-rectangle-ad"></i>
+          </div>
+          <h3 class="font-heading font-black text-lg text-slate-900 mb-2">Showroom Branding Kit</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">
+            Receive free high-definition store standees, counter catalogs, product banners, and digital marketing inquiries forwarded directly to your counter.
+          </p>
+          <div class="mt-4 text-[11px] font-bold text-emerald-800">Direct Inquiries Forwarded</div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- SECTION 4: B2B DEALERSHIP MARGIN & PROFITABILITY CALCULATOR               -->
+  <!-- ========================================================================= -->
+  <section id="dealer-calculator" class="py-16 bg-slate-950 text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        
+        <div class="lg:col-span-5 space-y-4">
+          <span class="text-xs uppercase font-extrabold tracking-widest text-amber-400 bg-amber-500/10 px-3 py-1 rounded-full border border-amber-400/30">
+            DEALER REVENUE SIMULATOR
+          </span>
+          <h2 class="font-heading font-black text-2xl sm:text-3xl leading-tight" data-en="Calculate Your Dealership Monthly Gross Margin & ROI" data-hi="अपने डीलरशिप के मासिक लाभ और रिटर्न की गणना करें">
+            Calculate Your Dealership Monthly Gross Margin & ROI
+          </h2>
+          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+            Estimate your monthly income from retailing Kisan Crown agricultural machinery in your district. Adjust the expected monthly sales volume below:
+          </p>
+
+          <div class="space-y-2 pt-2 text-xs text-slate-300">
+            <div class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Direct factory wholesale billing with 25%–35% gross margin</div>
+            <div class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Full 18% GST Input Tax Credit (ITC) on all invoices</div>
+            <div class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Continuous secondary revenue from replacement screens, blades & spares</div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-7">
+          <div class="bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-2xl">
+            
+            <div class="space-y-6">
+              
+              <!-- Volume Slider -->
+              <div>
+                <div class="flex justify-between items-center mb-2">
+                  <label class="text-xs font-bold text-slate-300 uppercase tracking-wider">Expected Monthly Machine Volume:</label>
+                  <span id="dealer-volume-display" class="font-black text-amber-400 text-sm bg-amber-500/10 px-3 py-1 rounded-lg border border-amber-500/30">
+                    10 Machines / Month
+                  </span>
+                </div>
+                <input id="dealer-volume-range" type="range" min="3" max="50" value="10" step="1" oninput="updateDealerCalculator()" class="w-full h-2.5 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-emerald-500">
+                <div class="flex justify-between text-[10px] text-slate-500 mt-1">
+                  <span>3 Machines (New Store)</span>
+                  <span>15 Machines (Active Dealer)</span>
+                  <span>50+ (Zonal Distributor)</span>
+                </div>
+              </div>
+
+              <!-- Average Margin Select -->
+              <div>
+                <label class="text-xs font-bold text-slate-300 uppercase tracking-wider block mb-2">Average Gross Margin Tier:</label>
+                <select id="dealer-avg-margin" onchange="updateDealerCalculator()" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-700 bg-slate-800 text-white text-xs font-semibold focus:ring-2 focus:ring-emerald-500">
+                  <option value="12000">Standard Machinery Blend (Avg. ₹12,000 Gross Profit / Unit)</option>
+                  <option value="8000">High Volume Small Equipment / Sprayers (Avg. ₹8,000 Margin / Unit)</option>
+                  <option value="18000">Commercial Plants & Ultra Pro Mills (Avg. ₹18,000+ Margin / Unit)</option>
+                </select>
+              </div>
+
+              <!-- Output Display Cards -->
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
+                <div class="bg-slate-950 p-4 rounded-2xl border border-slate-800 text-center">
+                  <div class="text-[10px] text-slate-400 font-bold uppercase mb-1">Monthly Gross Profit</div>
+                  <div id="dealer-monthly-profit-display" class="text-2xl font-black text-emerald-400">₹1,20,000</div>
+                  <div class="text-[10px] text-slate-500 mt-1">Direct from machinery sales</div>
+                </div>
+
+                <div class="bg-slate-950 p-4 rounded-2xl border border-slate-800 text-center">
+                  <div class="text-[10px] text-slate-400 font-bold uppercase mb-1">Annual Dealership Income</div>
+                  <div id="dealer-annual-profit-display" class="text-2xl font-black text-amber-400">₹14.4 Lakhs</div>
+                  <div class="text-[10px] text-slate-500 mt-1">Excluding spares & service</div>
+                </div>
+
+                <div class="bg-slate-950 p-4 rounded-2xl border border-slate-800 text-center">
+                  <div class="text-[10px] text-slate-400 font-bold uppercase mb-1">Est. 18% GST Input Credit</div>
+                  <div id="dealer-itc-display" class="text-2xl font-black text-slate-200">₹81,000</div>
+                  <div class="text-[10px] text-slate-500 mt-1">Adjustable against output GST</div>
+                </div>
+              </div>
+
+              <div class="pt-2">
+                <a href="#dealership-form" class="block w-full text-center bg-gradient-to-r from-emerald-600 to-green-600 hover:from-emerald-700 hover:to-green-700 text-white font-extrabold py-3.5 rounded-xl transition text-sm shadow-lg">
+                  Apply to Become Our Authorized District Dealer &rarr;
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- SECTION 5: MODEL COMPARISON MATRIX (RICE MILLS & PROCESSING PLANTS)        -->
+  <!-- ========================================================================= -->
+  <section id="comparison-matrix" class="py-16 bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-xs uppercase font-extrabold tracking-widest text-emerald-800 bg-emerald-100 px-3 py-1 rounded-full">
+          TECHNICAL BENCHMARK
+        </span>
+        <h2 class="font-heading font-black text-2xl sm:text-3xl text-slate-900 mt-3" data-en="Side-by-Side Model Comparison Matrix" data-hi="मॉडल तुलना तालिका">
+          Side-by-Side Model Comparison Matrix
+        </h2>
+        <p class="text-slate-600 mt-2 text-sm">
+          Technical specifications, required power connections, and wholesale packaging parameters for our flagship processing machines.
+        </p>
+      </div>
+
+      <div class="overflow-x-auto rounded-2xl border border-slate-200 shadow-sm">
+        <table class="w-full text-left text-sm spec-table">
+          <thead class="bg-slate-900 text-white font-heading font-bold text-xs uppercase tracking-wider">
+            <tr>
+              <th class="p-4 bg-slate-950">Specification Parameter</th>
+              <th class="p-4 text-emerald-300">6N-40 Mini</th>
+              <th class="p-4 text-emerald-400">6N-110 Semi-Commercial</th>
+              <th class="p-4 text-amber-300">6N-70 Ultra Pro Max</th>
+              <th class="p-4 text-slate-200">6N-70 Commercial</th>
+              <th class="p-4 text-emerald-200">Winover Cum Grader</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-200 font-medium text-xs sm:text-sm">
+            <tr>
+              <td class="p-4 font-bold text-slate-900 bg-slate-50">Model Product Code</td>
+              <td class="p-4">RM40</td>
+              <td class="p-4 font-bold text-emerald-700">RM110</td>
+              <td class="p-4 font-bold text-amber-600">RM70UPM</td>
+              <td class="p-4">RM70 / RM70V</td>
+              <td class="p-4">WCG</td>
+            </tr>
+            <tr>
+              <td class="p-4 font-bold text-slate-900 bg-slate-50">Required Motor</td>
+              <td class="p-4">3 HP Electric</td>
+              <td class="p-4">3 HP Electric</td>
+              <td class="p-4 font-bold text-slate-900">10 HP Heavy Motor</td>
+              <td class="p-4">10 HP Motor</td>
+              <td class="p-4">3 HP Electric</td>
+            </tr>
+            <tr>
+              <td class="p-4 font-bold text-slate-900 bg-slate-50">Electric Connection</td>
+              <td class="p-4 text-emerald-700 font-bold"><i class="fa-solid fa-house-chimney text-xs"></i> 220V Single Phase</td>
+              <td class="p-4 text-emerald-700 font-bold"><i class="fa-solid fa-house-chimney text-xs"></i> 220V Single Phase</td>
+              <td class="p-4 text-slate-800 font-bold"><i class="fa-solid fa-industry text-xs"></i> 440V 3-Phase</td>
+              <td class="p-4 text-slate-800 font-bold"><i class="fa-solid fa-industry text-xs"></i> 440V 3-Phase</td>
+              <td class="p-4 text-emerald-700 font-bold"><i class="fa-solid fa-house-chimney text-xs"></i> 220V Single Phase</td>
+            </tr>
+            <tr>
+              <td class="p-4 font-bold text-slate-900 bg-slate-50">Production Output</td>
+              <td class="p-4">120 – 180 kg/hr</td>
+              <td class="p-4 font-bold text-emerald-700">200 – 250 kg/hr</td>
+              <td class="p-4 font-bold text-amber-600">600 – 800 kg/hr</td>
+              <td class="p-4">500 – 600 kg/hr</td>
+              <td class="p-4 font-bold text-emerald-700">1200 – 1500 kg/hr</td>
+            </tr>
+            <tr>
+              <td class="p-4 font-bold text-slate-900 bg-slate-50">Secondary Attachment</td>
+              <td class="p-4">Standard Chute</td>
+              <td class="p-4">Polishing Barrel</td>
+              <td class="p-4 font-bold text-amber-600">Atta/Spice Pulverizer + Cyclone</td>
+              <td class="p-4">Cyclone + Vibro-Sieve</td>
+              <td class="p-4 font-bold text-emerald-700">Blower + Dual Sieve Decks</td>
+            </tr>
+            <tr>
+              <td class="p-4 font-bold text-slate-900 bg-slate-50">Wholesale MOQ & Packaging</td>
+              <td class="p-4 text-emerald-700 font-bold">1 Unit Trial / 5 Units Crate</td>
+              <td class="p-4 text-emerald-700 font-bold">1 Unit Trial / 5 Units Crate</td>
+              <td class="p-4 text-amber-600 font-bold">Commercial Single / Bulk Lot</td>
+              <td class="p-4 text-slate-900 font-bold">Commercial Single / Bulk Lot</td>
+              <td class="p-4 text-emerald-700 font-bold">1 Unit / 5 Units Pack</td>
+            </tr>
+            <tr>
+              <td class="p-4 font-bold text-slate-900 bg-slate-50">Authorized Dealer Margin</td>
+              <td class="p-4 text-emerald-700 font-bold">25% – 30%</td>
+              <td class="p-4 text-emerald-700 font-bold">25% – 32%</td>
+              <td class="p-4 text-amber-600 font-bold">28% – 35%</td>
+              <td class="p-4 text-slate-900 font-bold">25% – 32%</td>
+              <td class="p-4 text-emerald-700 font-bold">25% – 30%</td>
+            </tr>
+            <tr class="bg-slate-50">
+              <td class="p-4 font-bold text-slate-900">Direct Page</td>
+              <td class="p-4"><a class="text-emerald-700 underline font-bold" href="/6n-40">Open 6N-40</a></td>
+              <td class="p-4"><a class="text-emerald-700 underline font-bold" href="/6n-110">Open 6N-110</a></td>
+              <td class="p-4"><a class="text-amber-600 underline font-bold" href="/6n-70-ultra-pro">Open Ultra Pro</a></td>
+              <td class="p-4"><a class="text-emerald-700 underline font-bold" href="/6n-70">Open 6N-70</a></td>
+              <td class="p-4"><a class="text-emerald-700 underline font-bold" href="/winover-cum-grader">Open Winover</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- SECTION 6: PAN-INDIA LOGISTICS & REGIONAL MOTHER HUBS                     -->
+  <!-- ========================================================================= -->
+  <section id="pan-india-network" class="py-16 bg-slate-50 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-xs uppercase font-extrabold tracking-widest text-emerald-800 bg-emerald-100 px-3 py-1 rounded-full">
+          DIRECT FACTORY NETWORK
+        </span>
+        <h2 class="font-heading font-black text-2xl sm:text-3xl text-slate-900 mt-3" data-en="Pan-India Logistics & Regional Dispatch Hubs" data-hi="अखिल भारतीय रसद और जोनल वितरण केंद्र">
+          Pan-India Logistics & Regional Dispatch Hubs
+        </h2>
+        <p class="text-slate-600 mt-2 text-sm">
+          Operated directly by GTB International Private Limited (Kisan Crown™). We dispatch assembled machinery and genuine spare parts across 500+ agricultural districts daily.
+        </p>
+      </div>
+
+      <!-- 4 Modern Hub Cards -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <div class="bg-white border-2 border-emerald-500/50 rounded-2xl p-5 relative overflow-hidden shadow-sm">
+          <div class="w-10 h-10 rounded-xl bg-emerald-700 text-white flex items-center justify-center text-lg mb-3">
+            <i class="fa-solid fa-industry"></i>
+          </div>
+          <span class="text-[10px] font-black uppercase text-emerald-800 bg-emerald-100 px-2 py-0.5 rounded">CENTRAL MOTHER PLANT</span>
+          <h3 class="font-heading font-black text-lg text-slate-900 mt-2">Raipur (Chhattisgarh)</h3>
+          <p class="text-xs text-slate-600 mt-1">Head Office, Heavy Production Lines & Central Spares Logistics Hub.</p>
+          <div class="mt-3 text-[11px] text-emerald-700 font-bold flex items-center gap-1">
+            <i class="fa-solid fa-truck"></i> Daily Rail & Road Dispatches
+          </div>
+        </div>
+
+        <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm">
+          <div class="w-10 h-10 rounded-xl bg-slate-900 text-amber-400 flex items-center justify-center text-lg mb-3">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <span class="text-[10px] font-black uppercase text-slate-700 bg-slate-200 px-2 py-0.5 rounded">CENTRAL INDIA BRANCH</span>
+          <h3 class="font-heading font-black text-lg text-slate-900 mt-2">Jabalpur (M.P.)</h3>
+          <p class="text-xs text-slate-600 mt-1">Serving Madhya Pradesh, Bundelkhand & Vidarbha belt with live dealer demo center.</p>
+          <div class="mt-3 text-[11px] text-slate-700 font-semibold flex items-center gap-1">
+            <i class="fa-solid fa-warehouse"></i> Regional Spares Depot
+          </div>
+        </div>
+
+        <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm">
+          <div class="w-10 h-10 rounded-xl bg-slate-900 text-amber-400 flex items-center justify-center text-lg mb-3">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <span class="text-[10px] font-black uppercase text-slate-700 bg-slate-200 px-2 py-0.5 rounded">EASTERN ZONAL HUB</span>
+          <h3 class="font-heading font-black text-lg text-slate-900 mt-2">Kolkata (West Bengal)</h3>
+          <p class="text-xs text-slate-600 mt-1">Direct logistics for Bengal, Bihar, Assam & North-East dealer dispatches.</p>
+          <div class="mt-3 text-[11px] text-slate-700 font-semibold flex items-center gap-1">
+            <i class="fa-solid fa-boxes-packing"></i> Express Transit Freight
+          </div>
+        </div>
+
+        <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm">
+          <div class="w-10 h-10 rounded-xl bg-slate-900 text-amber-400 flex items-center justify-center text-lg mb-3">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <span class="text-[10px] font-black uppercase text-slate-700 bg-slate-200 px-2 py-0.5 rounded">COASTAL GRAIN HUB</span>
+          <h3 class="font-heading font-black text-lg text-slate-900 mt-2">Bhubaneswar (Odisha)</h3>
+          <p class="text-xs text-slate-600 mt-1">Dedicated center supporting coastal rice clusters, custom hiring centers, and dealers.</p>
+          <div class="mt-3 text-[11px] text-slate-700 font-semibold flex items-center gap-1">
+            <i class="fa-solid fa-truck-ramp-box"></i> Direct Depot Logistics
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Trust Bar -->
+      <div class="mt-8 p-4 rounded-2xl bg-emerald-50 border border-emerald-200 flex flex-wrap items-center justify-between gap-4 text-xs">
+        <div class="flex items-center gap-2 text-emerald-900 font-bold">
+          <i class="fa-solid fa-box-check text-emerald-600 text-lg"></i>
+          <span>Secure wooden box packing & insured door transport available across all Indian states.</span>
+        </div>
+        <a href="tel:+919827110000" class="text-emerald-800 font-black hover:underline flex items-center gap-1">
+          <span>Find nearest transport godown in your district &rarr;</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- SECTION 7: OFFICIAL B2B DEALERSHIP APPLICATION & WHOLESALE RFP FORM        -->
+  <!-- ========================================================================= -->
+  <section id="dealership-form" class="py-16 bg-white border-b border-slate-200">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="bg-gradient-to-br from-slate-900 via-slate-950 to-emerald-950 text-white rounded-3xl p-8 sm:p-10 shadow-2xl border border-slate-800">
+        
+        <div class="text-center max-w-2xl mx-auto mb-8">
+          <span class="text-xs uppercase font-extrabold tracking-widest text-amber-400 bg-amber-500/10 px-3 py-1 rounded-full border border-amber-400/30">
+            OFFICIAL B2B ONBOARDING
+          </span>
+          <h2 class="font-heading font-black text-2xl sm:text-3xl text-white mt-3">
+            Apply for Kisan Crown™ Authorized Dealership
+          </h2>
+          <p class="text-slate-300 text-xs sm:text-sm mt-2">
+            Fill out the form below to receive our confidential B2B distributor price list, dealership terms, and product catalogs.
+          </p>
+        </div>
+
+        <form onsubmit="handleB2BLeadSubmit(event)" class="space-y-4">
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-bold text-slate-300 mb-1">Dealership / Business Name *</label>
+              <input id="b2b-firm-name" type="text" required placeholder="e.g. Kisan Machinery & Hardware" class="w-full px-4 py-2.5 rounded-xl border border-slate-700 bg-slate-800/80 text-white text-xs focus:ring-2 focus:ring-emerald-500 placeholder-slate-500">
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-300 mb-1">Contact Person Name *</label>
+              <input id="b2b-contact-name" type="text" required placeholder="Proprietor / Partner Name" class="w-full px-4 py-2.5 rounded-xl border border-slate-700 bg-slate-800/80 text-white text-xs focus:ring-2 focus:ring-emerald-500 placeholder-slate-500">
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div>
+              <label class="block text-xs font-bold text-slate-300 mb-1">WhatsApp / Phone Number *</label>
+              <input id="b2b-phone" type="tel" required placeholder="10-digit mobile number" class="w-full px-4 py-2.5 rounded-xl border border-slate-700 bg-slate-800/80 text-white text-xs focus:ring-2 focus:ring-emerald-500 placeholder-slate-500">
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-300 mb-1">District & State *</label>
+              <input id="b2b-location" type="text" required placeholder="e.g. Indore, Madhya Pradesh" class="w-full px-4 py-2.5 rounded-xl border border-slate-700 bg-slate-800/80 text-white text-xs focus:ring-2 focus:ring-emerald-500 placeholder-slate-500">
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-300 mb-1">GSTIN Number (Optional)</label>
+              <input id="b2b-gstin" type="text" placeholder="15-digit GST number if any" class="w-full px-4 py-2.5 rounded-xl border border-slate-700 bg-slate-800/80 text-white text-xs focus:ring-2 focus:ring-emerald-500 placeholder-slate-500">
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-bold text-slate-300 mb-1">Machinery Categories Interested In: *</label>
+              <select id="b2b-category-select" class="w-full px-4 py-2.5 rounded-xl border border-slate-700 bg-slate-800/80 text-white text-xs font-medium focus:ring-2 focus:ring-emerald-500">
+                <option value="All Categories (Full Store Dealership)">All Categories (Full Store Dealership)</option>
+                <option value="Rice Mills & Destoning Machines">Rice Mills & Destoning Machines</option>
+                <option value="Power Weeders & Tillers">Power Weeders & Tillers (7HP Series)</option>
+                <option value="Battery & Power Sprayers">Battery & Power Sprayers</option>
+                <option value="Commercial Pulverizers & Grinders">Commercial Pulverizers & Grinders</option>
+                <option value="Cold Press Mini & Commercial Oil Mills">Cold Press Mini & Commercial Oil Mills</option>
+                <option value="Agro & Food Processing Equipment">Agro & Food Processing Equipment</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-300 mb-1">Application / Inquiry Type: *</label>
+              <select id="b2b-inquiry-type" class="w-full px-4 py-2.5 rounded-xl border border-slate-700 bg-slate-800/80 text-white text-xs font-medium focus:ring-2 focus:ring-emerald-500">
+                <option value="District Dealership Application">New District Dealership Application</option>
+                <option value="Sample Order for Store Evaluation">Sample Order for Store Evaluation (1-2 Units)</option>
+                <option value="Bulk Wholesale Stocking (Container / Truckload)">Bulk Wholesale Stocking (Truckload)</option>
+                <option value="Government / FPO Tender Supply">Government / FPO Tender Supply</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="pt-4">
+            <button type="submit" class="w-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-black py-4 rounded-xl transition text-sm flex items-center justify-center gap-2 shadow-xl">
+              <i class="fa-solid fa-paper-plane"></i>
+              <span>Submit Dealership Application & Open B2B WhatsApp Desk</span>
+            </button>
+          </div>
+
+          <div class="flex items-center justify-center gap-6 text-[11px] text-slate-400 pt-2">
+            <span><i class="fa-solid fa-shield-halved text-emerald-400"></i> Direct Manufacturer Terms</span>
+            <span>•</span>
+            <span><i class="fa-solid fa-clock text-amber-400"></i> Official Response within 2 Business Hours</span>
+          </div>
+
+        </form>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- CORPORATE FOOTER                                                          -->
+  <!-- ========================================================================= -->
+  <footer id="corporate-profile" class="bg-slate-950 text-slate-400 py-12 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        
+        <div class="space-y-3">
+          <div class="flex items-center gap-3">
+            <img src="public/images/kisan-crown-logo.jpg" alt="Kisan Crown" class="h-10 w-auto rounded-full">
+            <div>
+              <span class="font-heading font-black text-lg text-white">KISAN CROWN</span>
+              <p class="text-[10px] text-slate-400">A Unit of GTB International Pvt. Ltd. (Est. 1977)</p>
+            </div>
+          </div>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            India's premier manufacturer and B2B wholesale distributor of heavy agricultural machinery, post-harvest equipment, and commercial processing units.
+          </p>
+          <div class="text-xs text-slate-300 space-y-1 pt-1">
+            <div><strong>GSTIN:</strong> 22AALCG5759N1Z0</div>
+            <div><strong>CIN:</strong> U28252CT2024PTC017013</div>
+            <div><strong>Works:</strong> 228/7, Infront of Railway Arakshan Kendra Gate No 2, Raipur - 492001 (C.G.)</div>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="font-bold text-white text-xs mb-3 uppercase tracking-wider">Product Divisions</h4>
+          <ul class="text-xs space-y-2">
+            <li><a class="hover:text-emerald-400 transition" href="#machinery-catalog" onclick="filterCategory('rice-mills')">&bull; Rice Mills & Destoner Systems</a></li>
+            <li><a class="hover:text-emerald-400 transition" href="#machinery-catalog" onclick="filterCategory('power-weeders')">&bull; 7 HP Power Weeders & Tillers</a></li>
+            <li><a class="hover:text-emerald-400 transition" href="#machinery-catalog" onclick="filterCategory('sprayers')">&bull; Double Motor Battery Sprayers</a></li>
+            <li><a class="hover:text-emerald-400 transition" href="#machinery-catalog" onclick="filterCategory('pulverizers')">&bull; Commercial Pulverizers & Grinders</a></li>
+            <li><a class="hover:text-emerald-400 transition" href="#machinery-catalog" onclick="filterCategory('oil-mills')">&bull; Cold Press Mini & Industrial Oil Mills</a></li>
+            <li><a class="hover:text-emerald-400 transition" href="#machinery-catalog" onclick="filterCategory('agro-processing')">&bull; Food & Agro-Processing Machines</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-bold text-white text-xs mb-3 uppercase tracking-wider">B2B Dealership Desk</h4>
+          <ul class="text-xs space-y-2 text-slate-400">
+            <li><a href="#dealership-form" class="hover:text-emerald-400 transition">&bull; Authorized District Dealerships</a></li>
+            <li><a href="#dealership-form" class="hover:text-emerald-400 transition">&bull; FPO & Custom Hiring Center Bulk RFP</a></li>
+            <li><a href="#dealer-calculator" class="hover:text-emerald-400 transition">&bull; Distributor Profit & Margin Simulator</a></li>
+            <li><a href="#pan-india-network" class="hover:text-emerald-400 transition">&bull; 24–48 Hr Spare Parts Dispatch Guarantee</a></li>
+            <li><a href="#corporate-profile" class="hover:text-emerald-400 transition">&bull; 100% GST Invoicing & Input Tax Credit</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-bold text-white text-xs mb-3 uppercase tracking-wider">Procurement Hotline</h4>
+          <p class="text-xs text-slate-400 mb-2">Speak directly with our technical factory advisors:</p>
+          <a href="tel:+919827110000" class="block font-bold text-white text-base hover:text-emerald-400 transition mb-3">
+            <i class="fa-solid fa-phone text-emerald-500 mr-1.5"></i> +91 98271 10000
+          </a>
+          <button onclick="openWhatsAppInquiry('B2B Wholesale Procurement Inquiry', 'Hello GTB International / Kisan Crown team, I am interested in wholesale procurement. Please connect me with the sales director.')" class="w-full bg-emerald-700 hover:bg-emerald-800 text-white font-bold py-2.5 rounded-xl transition text-xs flex items-center justify-center gap-2">
+            <i class="fa-brands fa-whatsapp text-base"></i>
+            <span>Chat with B2B Sales Desk</span>
+          </button>
+        </div>
+
+      </div>
+
+      <div class="mt-10 pt-5 border-t border-slate-900 text-center text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div>&copy; 2026 GTB International Pvt. Ltd. / Kisan Crown™. All rights reserved.</div>
+        <div class="flex space-x-4">
+          <a href="https://www.kisancrown.com/" target="_blank" class="hover:text-slate-300">Reference Company Portal</a>
+          <span>•</span>
+          <a href="#product-categories" class="hover:text-slate-300">Machinery Lineup</a>
+          <span>•</span>
+          <a href="#dealership-form" class="hover:text-slate-300">Dealership Application</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- LEADCONNECTOR OFFICIAL LIVE CHAT WIDGET -->
+  <script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="6ad5b5f24e3a6a8f9597199b"></script>
+
+  <!-- OFFICIAL B2B WHOLESALE QUOTATION MODAL -->
+  <div id="quotation-modal" class="fixed inset-0 z-50 bg-black/80 hidden items-center justify-center p-4 backdrop-blur-sm">
+    <div class="relative max-w-xl w-full bg-white rounded-3xl overflow-hidden shadow-2xl border border-slate-200">
+      
+      <div class="bg-gradient-to-r from-emerald-950 to-slate-900 text-white p-5 flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center text-lg font-black">
+            <i class="fa-solid fa-file-invoice-dollar"></i>
+          </div>
+          <div>
+            <span class="text-[10px] font-black uppercase tracking-wider text-amber-400">GTB INTERNATIONAL PVT. LTD.</span>
+            <h3 id="quote-modal-title" class="font-heading font-black text-base">B2B Wholesale Quotation</h3>
+          </div>
+        </div>
+        <button onclick="closeQuotationModal()" class="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="p-6 space-y-4">
+        
+        <!-- Machinery Summary Card -->
+        <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
+          <div class="flex justify-between items-start mb-2">
+            <div>
+              <div class="text-[10px] font-bold text-slate-500 uppercase">Selected Model:</div>
+              <div id="quote-model-name" class="font-heading font-black text-slate-900 text-base">Kisan Crown Commercial Machinery</div>
+            </div>
+            <span id="quote-model-code" class="bg-emerald-100 text-emerald-800 text-xs font-black px-2.5 py-1 rounded-lg">MODEL</span>
+          </div>
+
+          <div class="grid grid-cols-2 gap-3 pt-3 border-t border-slate-200 text-xs">
+            <div>
+              <span class="text-slate-500 block text-[10px]">INDICATIVE FACTORY BASE:</span>
+              <strong id="quote-base-price" class="text-slate-900 text-sm">₹65,000</strong>
+            </div>
+            <div>
+              <span class="text-slate-500 block text-[10px]">GST BREAKDOWN:</span>
+              <strong id="quote-gst-amount" class="text-emerald-700 font-bold">+ ₹11,700 (18% ITC)</strong>
+            </div>
+            <div class="col-span-2 bg-white p-2.5 rounded-xl border border-slate-200 flex justify-between items-center">
+              <span class="text-[11px] text-slate-600 font-semibold">Wholesale Packaging / MOQ:</span>
+              <span id="quote-moq-display" class="text-xs font-bold text-slate-900">1 Unit Trial / 5 Units Dealer Crate</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- B2B Lead Capture Form -->
+        <form onsubmit="handleModalQuotation(event)" class="space-y-3">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div>
+              <label class="block text-xs font-bold text-slate-700 mb-1">Firm / Proprietor Name *</label>
+              <input id="modal-lead-name" type="text" required placeholder="e.g. Patel Agro Traders" class="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-emerald-500">
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 mb-1">WhatsApp / Phone *</label>
+              <input id="modal-lead-phone" type="tel" required placeholder="10-digit number" class="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-emerald-500">
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">District & State *</label>
+            <input id="modal-lead-loc" type="text" required placeholder="e.g. Raipur, Chhattisgarh" class="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-emerald-500">
+          </div>
+
+          <div class="pt-2">
+            <button type="submit" class="w-full bg-emerald-700 hover:bg-emerald-800 text-white font-extrabold py-3 rounded-xl transition text-xs sm:text-sm flex items-center justify-center gap-2 shadow-lg">
+              <i class="fa-brands fa-whatsapp text-base"></i>
+              <span>Send Official Wholesale Quote to WhatsApp</span>
+            </button>
+          </div>
+
+          <div class="text-[10px] text-center text-slate-500 pt-1">
+            Factory direct dispatches from Raipur central warehouse. GST compliant tax invoice provided.
+          </div>
+        </form>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Main JS -->
+  <script src="public/js/main.js"></script>
+</body>
+</html>
